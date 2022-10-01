@@ -54,10 +54,10 @@ export default ({
                             ],
                         },
                         {
-                            title: '参与贡献',
+                            title: 'To-do List',
                             collapsable: false,
                             children: [
-                                '/contribute/contribute',
+                                '/todo/todo',
                             ],
                         },
                     ],
@@ -113,7 +113,7 @@ export default ({
                             title: 'Contribution',
                             collapsable: false,
                             children: [
-                                '/en/contribute/contribute',
+                                '/en/todo/todo',
                             ],
                         },
                     ],
@@ -137,8 +137,8 @@ export default ({
                         ],
                     },
                     {
-                        text: 'Contribute',
-                        link: '/en/contribute/contribute',
+                        text: 'To-do List',
+                        link: '/en/todo/todo',
                     },
                 ],
             },
