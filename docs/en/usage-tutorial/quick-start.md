@@ -3,24 +3,24 @@
 
 ## Installation
 
-If you're using Hexo 5.0 or later, the simplest way to install is through npm:
+If you're using Hexo 5.0 or later, the easiest way to install Theme Redefine is by using **npm**
 
 ```sh
-$ cd hexo-site
-$ npm install hexo-theme-keep
+$ cd your-hexo-site
+$ npm install hexo-theme-redefine
 ```
 
-Or you can clone the entire repository:
+Another method is by **git clone**
 
 ```sh
-$ cd hexo-site
-$ git clone https://github.com/XPoet/hexo-theme-keep themes/keep
+$ cd your-hexo-site
+$ git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine
 ```
 
 
 ## Usage
 
-After the installation, open Hexo config file and set `theme` variable to `keep`.
+After the installation, open Hexo config file `_config.yml` and set `theme` variable to `redefine`.
 
 ```yml
 theme: keep
@@ -29,18 +29,18 @@ theme: keep
 
 ## Update
 
-**Keep** releases new versions from time to time. You can update **Keep** by the following command.
+**Theme Redefine** releases new versions from time to time. You can update **Theme redefine** by the following command.
 
 Install the latest version throuth npm:
 
 ```sh
-$ cd hexo-site
-$ npm update hexo-theme-keep
+$ cd your-hexo-site
+$ npm install hexo-theme-redefine
 ```
 
-Or update to latest master branch:
+Or update to latest main branch by using **git**:
 
 ```sh
-$ cd themes/keep
+$ cd themes/redefine
 $ git pull
 ```
