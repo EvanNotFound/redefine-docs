@@ -109,7 +109,7 @@ sticky: 999
 
 Redefine 主题对友链（links）页面进行了样式优化，你只需按如下教程，便可得到漂亮的友链列表，如下图。
 
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.o27c1lf5yo0.png)
+![Screen Shot 2022-10-02 at 12.32.44 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2012.32.44%20PM.png)
 
 1. 创建友链（links）页面，在你的 Hexo 项目根目录下使用如下命令即可自动创建。
    ```sh
@@ -145,53 +145,37 @@ Redefine 主题对友链（links）页面进行了样式优化，你只需按如
 1. 在 `links.yml` 文件里按如下格式增加你的友链。
 
    ```yaml
-   - name: XPoet
-     link: https://xpoet.cn/
-     description: 所有命运的馈赠，早已在暗中标好价格。
-     avatar: https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/common-use/avatar.jpg
+   - name: EvanNotFound
+     link: https://www.evanluo.top
+     description: 香港记者月底加急
+     avatar: https://evan.beee.top/avatar.png
    
-   - name: 不知名艺术家
-     link: https://jinzhanqi.com/
-     description: love artist, love code.
-     avatar: https://s3.ax1x.com/2020/11/17/DVvkB4.jpg
+   - name: lalallalala
+     link: https://example.com
+     description: lol
+     avatar: https://www.youtube.com/watch?v=dQw4w9WgXcQ
    
    - ......  
    
    ```
-1. 目录结构参考。
-   ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.411k8ek37x40.png)
+   
+   
 
 
-## 平滑升级
-更新 Hexo 主题时，一般都会有这样的经历：先将主题目录下的` _config.yml` 文件备份，更新完主题后，再将备份的数据复制粘贴还原回去。
+## 文件比对
+以下是文件比对
 
-这个过程繁琐又浪费时间，因此我们需要一种友好的更新方式。如果你也经历着这样的痛苦，那么不妨尝试 Hexo 3.0 新增的功能 -- [数据文件](https://hexo.io/zh-cn/docs/data-files)。
-
-Redefine 主题利用该功能实现了平滑升级的特性，使用步骤如下：
-将主题目录下的 `_config.yml` 文件复制到博客根目录下的 `/source/_data/` 中，并重命名为 `keep.yml`。如果 `source` 目录下没有 `_data` 文件夹请自行创建。
-
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.4qgvsy4ajt40.png)
-
-这两个文件的关系为 `keep.yml` 覆盖 `_config.yml`，也就是说，想要修改配置时，只需要修改 `keep.yml` 里的即可（修改 `_config.yml` 里的不会生效）。这样就实现了平滑升级，更新 Redefine 主题时 `_config.yml` （可能）会更新，而你的主题配置数据保留在 `keep.yml` 中。
-
-::: warning 注意
-主题更新后，如果主题目录下的 `_config.yml` 文件里出现了新的配置项，那么你必须从该文件中将它们复制到 `/source/_data/keep.yml` 中，并设置它们的值为你想要的选项。
-
-如果你使用了平滑升级这一特性，那么 `/themes/keep/_config.yml` 和 `/source/_data/keep.yml` 这两个文件里的选项没有同步，是更新主题后，启动报错的最主要的原因！
-:::
-
-有时候，同步 `/themes/keep/_config.yml` 和 `/source/_data/keep.yml` 两个配置文件里的内容也比较麻烦。因此，推荐使用代码对比工具进行查看，这样再进行同步就方便多了。例如 VS Code 自带的代码对比工具：
+VS Code 自带的代码对比工具：
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.4c2gxoox3es0.png)
 
-
 ::: warning 特别注意
-如果你升级了 Kepp 主题，主题配置文件 `_config.yml` 的 `version` 的值**必须**跟版本号保持一致！!
+如果你升级了 Redefine 主题，主题配置文件 `/node_modules/hexo-theme-redefine/_config.yml` 的 `version` 的值**必须**跟 `_config.redefine.yml` 版本号保持一致！!
 
-例如：我将主题升级到 3.4.2 版本，那么主题配置文件 `_config.yml` 的 `version` 的值必须是 3.4.2 。如果你用了平滑升级，`/source/_data/keep.yml` 中的版本号需要你手动更改。
+例如：我将主题升级到 0.2.0 版本，那么主题配置文件 `/node_modules/hexo-theme-redefine/_config.yml`的 `version` 的值必须是 0.2.0 。如果你用了平滑升级，`_config.redefine.yml` 中的版本号需要你手动更改。
 
 ```yaml
 # Redefine version
-version: 3.4.2
+version: 0.2.0
 ```
 :::
 
@@ -211,20 +195,6 @@ Redefine 主题的源码中，HTML、CSS、JavaScript、图片等资源文件是
    all_minifier: true
    ```
    如果你使用插件时遇到了问题或者想进行更详细的设置，请查看插件的[文档](https://github.com/chenzhutian/hexo-all-minifier/blob/master/README.md)。
-
-## 图床问题 
-
-如果你在用 Hexo 等静态博客，正愁图片不知保存在哪里，那你可以试试 [PicX](https://github.com/XPoet/picx)。基于 GitHub API 开发的图床神器，图片外链使用 jsDelivr 进行 CDN 加速。
-
-免下载、免安装，打开网站即可直接使用。免费、稳定、高效。
-
-- [GitHub 仓库](https://github.com/XPoet/picx)
-
-- [PicX 官网](https://picx.xpoet.cn/)
-
-::: tip
-觉得好用就点个 Star 支持一下 ❤️
-:::
 
 ## 自动部署
 
