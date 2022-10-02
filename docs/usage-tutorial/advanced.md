@@ -166,7 +166,7 @@ Redefine 主题对友链（links）页面进行了样式优化，你只需按如
 以下是文件比对
 
 VS Code 自带的代码对比工具：
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.4c2gxoox3es0.png)
+![image](https://evan.beee.top/img/image.4c2gxoox3es0.png)
 
 ::: warning 特别注意
 如果你升级了 Redefine 主题，主题配置文件 `/node_modules/hexo-theme-redefine/_config.yml` 的 `version` 的值**必须**跟 `_config.redefine.yml` 版本号保持一致！!

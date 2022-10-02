@@ -692,7 +692,7 @@ local_search:
 
 全站文章搜索效果图：
 
-![Screen Shot 2022-10-02 at 10.22.29 AM](Screen Shot 2022-10-02 at 10.22.29 AM.png)
+![Screen Shot 2022-10-02 at 10.22.29 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2010.22.29%20AM-4745029.png)
 
 
 ## comment
