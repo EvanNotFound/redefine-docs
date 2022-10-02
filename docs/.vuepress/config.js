@@ -72,7 +72,7 @@ export default ({
                             },
                             {
                                 text: '配置指南',
-                                link: '/usage-tutorial/configuration-guide',
+                                link: '/usage-tutorial/configuration-guide.html',
                             },
                             {
                                 text: '进阶设置',
