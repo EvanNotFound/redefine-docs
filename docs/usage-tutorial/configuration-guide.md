@@ -21,7 +21,7 @@ Redefine 主题配置指南。
 base_info:
   title: Theme Redefine # Site title
   author: The Redefine Team # Author name
-  url: https://www.evanluo.top # Site url
+  url: https://redefine.evanluo.top # Site url
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img: # logo image on the left of the navigation bar
 
@@ -174,15 +174,16 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true
-  use: twikoo # values: valine | gitalk | twikoo
+  enable: false
+  use: waline # values: waline | gitalk | twikoo
 
-  # Valine
-  # See: https://github.com/xCss/Valine
-  valine:
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
-    placeholder: # your placeholder
+  # Waline
+  # See: https://waline.js.org/guide/get-started.html
+  waline:
+    serverUrl:  # Waline server url(vercel) example: https://example.example.com
+    lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
+    dark: auto # Waline dark mode, default: auto. See: https://waline.js.org/reference/component.html#dark
+    requiredMeta: ['nick'] # Waline required meta, default: ['nick'], see: https://waline.js.org/reference/component.html#requiredmeta
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
@@ -197,7 +198,7 @@ comment:
   twikoo:
     visitor: true
     env_id: # Vercel or Tencent Cloud Function environment ID
-    #region: # environment region. If select Guangzhou, fill in "ap-guangzhou".
+    region: # environment region. If select Guangzhou, fill in "ap-guangzhou". (optional)
 
 # ---------------------------------------------------------------------------------------
 # RSS
@@ -233,9 +234,9 @@ footer:
   icp: # ICP record number of your website, Can be null
 
 # ---------------------------------------------------------------------------------------
-# Redefine Theme version (Please keep the same version as /node_modules/hexo-theme-redefine/_config.yml)
+# Redefine Theme version (Please don't modify)
 # ---------------------------------------------------------------------------------------
-version: 0.1
+version: 0.2.0
 ```
 
 左侧目录按照顺序对应 `_config.redefine.yml` 中的选项，请一步一步来
@@ -700,28 +701,30 @@ local_search:
 ```yml
 comment:
   enable: false
-  use: valine  # values: valine | gitalk | twikoo
+  use: waline # values: waline | gitalk | twikoo
 
-  # Valine
-  # See: https://github.com/xCss/Valine
-  valine:
-    appid:                # your leancloud application appid
-    appkey:               # your leancloud application appkey
-    placeholder:          # your placeholder
+  # Waline
+  # See: https://waline.js.org/guide/get-started.html
+  waline:
+    serverUrl:  # Waline server url(vercel) example: https://example.example.com
+    lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
+    dark: auto # Waline dark mode, default: auto. See: https://waline.js.org/reference/component.html#dark
+    requiredMeta: ['nick'] # Waline required meta, default: ['nick'], see: https://waline.js.org/reference/component.html#requiredmeta
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
   gitalk:
-    github_id:             # GitHub repo owner
-    repository:            # Repository name to store issues
-    client_id:             # GitHub Application Client ID
-    client_secret:         # GitHub Application Client Secret
+    github_id: # GitHub repo owner
+    repository: # Repository name to store issues
+    client_id: # GitHub Application Client ID
+    client_secret: # GitHub Application Client Secret
 
   # Twikoo
   # See: https://github.com/imaegoo/twikoo
   twikoo:
-    env_id:                # Tencent Cloud environment id / vercel id
-    region:                # (optional) environment region. If select Guangzhou, fill in "ap-guangzhou".
+    visitor: true
+    env_id: # Vercel or Tencent Cloud Function environment ID
+    region: # environment region. If select Guangzhou, fill in "ap-guangzhou". (optional)
 ```
 
 该配置项用于开启和设置主题的评论系统。
@@ -729,45 +732,132 @@ comment:
 ### use
 
 ```yml
-use: valine  # values: valine | gitalk | twikoo
+use: waline  # values: waline | gitalk | twikoo
 ```
 配置使用哪款评论系统。目前主题内置 Valine、Gitalk 和 Twikoo，你可以使用其他一款。
 
-### Valine
+### Waline
 
-Valine 诞生于 2017 年 8 月 7 日，是一款基于 LeanCloud 的快速、简洁且高效的无后端评论系统。
+一款从 [Valine](https://valine.js.org/) 衍生的带后端评论系统。可以将 Waline 等价成 With backend Valine. 相对于 valine 更加安全，快速，简洁，开源。
 
 详情查看：
 
-- https://github.com/xCss/Valine/
-- https://valine.js.org/
+- https://github.com/walinejs/waline
+- https://waline.js.org/
 
-在 Keep 中如何使用：
+在 Redefine主题中如何使用：
 
-1. 请先 [登录](https://leancloud.cn/dashboard/login.html#/signin) 或 [注册](https://leancloud.cn/dashboard/login.html#/signup) LeanCloud，进入控制台后点击左下角创建应用。
+#### LeanCloud 设置 (数据库)
 
-   ![image](https://evan.beee.top/img/image.1wxzxd3182v4.png)
+1. [登录](https://console.leancloud.app/login) 或 [注册](https://console.leancloud.app/register) `LeanCloud 国际版` 并进入 [控制台](https://console.leancloud.app/apps)
+2. 点击左上角 [创建应用](https://console.leancloud.app/apps) 并起一个你喜欢的名字 (请选择免费的开发版):
 
-2. 应用创建好以后，进入刚刚创建的应用，选择左下角的`设置` > `应用Key`，然后就能看到你的 `APP ID` 和 `APP Key` 了。
+![创建应用](https://evan.beee.top/img/leancloud-1.f7a36b20.png)
 
-   ![image](https://evan.beee.top/img/image.33nt46l951k0.png)
+3. 进入应用，选择左下角的 `设置` > `应用 Key`。你可以看到你的 `APP ID`, `APP Key` 和 `Master Key`。请记录它们，以便后续使用。
 
-3. 在 Keep 主题配置文件填写必要参数信息（APP ID、APP Key 等），示例如下。
+![](https://evan.beee.top/img/leancloud-2.4cc69975.png)
 
-   ```yml
-   valine:
-     appid: ih2nzxxxxxxxxxxxxxxxxxxxxxx
-     appkey: gdf6666666666666666666666666
-     placeholder: 😜 尽情吐槽吧~
-   ```
+:::warning
 
-   - `appid` 必填。
-   - `appkey` 必填。
-   - `placeholder` 可填，表示评论框的在还没输入内容时的显示的信息。
+**国内版需要完成备案接入**
 
-4. Valine 评论插件效果图。
+如果你正在使用 Leancloud 国内版 ([leancloud.cnopen in new window](https://leancloud.cn/))，我们推荐你切换到国际版 ([leancloud.appopen in new window](https://leancloud.app/))。否则，你需要为应用额外绑定**已备案**的域名，同时购买独立 IP 并完成备案接入:
 
-   ![image](https://evan.beee.top/img/image.21h91rodeq00.png)
+- 登录国内版并进入需要使用的应用
+- 选择 `设置` > `域名绑定` > `API 访问域名` > `绑定新域名` > 输入域名 > `确定`。
+- 按照页面上的提示按要求在 DNS 上完成 CNAME 解析。
+- 购买独立 IP 并提交工单完成备案接入。(独立 IP 目前价格为 ￥ 50/个/月)
+
+![域名设置](https://evan.beee.top/img/leancloud-3.3ae5fb8d.png)
+
+:::
+
+#### Vercel 部署 (服务端)
+
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample)
+
+1. 点击上方按钮，跳转至 Vercel 进行 Server 端部署。
+
+   :::tip
+
+   注：如果你未登录的话，Vercel 会让你注册或登录，请使用 GitHub 账户进行快捷登录。
+
+   :::
+
+2. 输入一个你喜欢的 Vercel 项目名称并点击 `Create` 继续:
+
+   ![创建项目](https://evan.beee.top/img/vercel-1.4e9dd7aa.png)
+
+3. 此时 Vercel 会基于 Waline 模板帮助你新建并初始化仓库，仓库名为你之前输入的项目名。
+
+   ![deploy](https://evan.beee.top/img/vercel-3.0918fcee.png)
+
+   一两分钟后，满屏的烟花会庆祝你部署成功。此时点击 `Go to Dashboard` 可以跳转到应用的控制台。
+
+   ![deploy](https://evan.beee.top/img/vercel-4.f7f4c12b.png)
+
+4. 点击顶部的 `Settings` - `Environment Variables` 进入环境变量配置页，并配置三个环境变量 `LEAN_ID`, `LEAN_KEY` 和 `LEAN_MASTER_KEY` 。它们的值分别对应上一步在 LeanCloud 中获得的 `APP ID`, `APP KEY`, `Master Key`。
+
+   ![设置环境变量](https://evan.beee.top/img/vercel-5.3a5de7f0.png)
+
+   注
+
+   如果你使用 LeanCloud 国内版，请额外配置 `LEAN_SERVER` 环境变量，值为你绑定好的域名。
+
+5. 环境变量配置完成之后点击顶部的 `Deployments` 点击顶部最新的一次部署右侧的 `Redeploy` 按钮进行重新部署。该步骤是为了让刚才设置的环境变量生效。
+
+   ![redeploy](https://evan.beee.top/img/vercel-6.c1af01b1.png)
+
+6. 此时会跳转到 `Overview` 界面开始部署，等待片刻后 `STATUS` 会变成 `Ready`。此时请点击 `Visit` ，即可跳转到部署好的网站地址，此地址即为你的服务端地址。
+
+   ![redeploy success](https://evan.beee.top/img/vercel-7.2478902b.png)
+
+   #### 绑定域名 (可选)
+
+   如果你不想用 vercel 自带域名，可以绑定自己域名
+
+   1. 点击顶部的 `Settings` - `Domains` 进入域名配置页
+
+   2. 输入需要绑定的域名并点击 `Add`
+
+      ![Add domain](https://evan.beee.top/img/vercel-8.49378bd3.png)
+
+   3. 在域名服务器商处添加新的 `CNAME` 解析记录
+
+      | Type  | Name    | Value                |
+      | ----- | ------- | -------------------- |
+      | CNAME | example | cname.vercel-dns.com |
+
+   4. 等待生效，你可以通过自己的域名来访问了🎉
+
+      - 评论系统：example.yourdomain.com
+      - 评论管理：example.yourdomain.com/ui
+
+      ![success](https://evan.beee.top/img/vercel-9.a29236ac.png)
+
+#### Redefine 主题设置
+
+
+
+在 Redefine 主题配置文件填写必要参数信息（APP ID、APP Key 等），示例如下。
+
+```yml
+waline:
+  serverUrl:  # Waline server url(vercel) example: https://example.example.com
+  lang: zh-CN # Waline language, default: zh-CN
+  dark: auto # Waline dark mode, default: auto
+  requiredMeta: ['nick'] # Waline required meta, default: ['nick']
+```
+
+- `serverUrl` 必填。就是你的 Vercel 域名（也可以是你绑定的自定义域名）
+- `lang` 必填。评论语言，详见[Waline 官方文档#lang](https://waline.js.org/reference/component.html#lang)
+- `dark` 必填。是否开始暗黑模式，详见[Waline 官方文档#dark](https://waline.js.org/reference/component.html#dark)
+- `requiredMeta` 必填。详见[Waline 官方文档#requiredMeta](https://waline.js.org/reference/component.html#requiredmeta)
+
+Waline 评论插件效果图。
+
+![Screen Shot 2022-10-03 at 10.17.15 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-03%20at%2010.17.15%20PM.png)
 
 ### Gitalk
 
