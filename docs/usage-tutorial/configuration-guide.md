@@ -80,6 +80,7 @@ social_contact: # social contact icons in the first screen, you can add more by 
     zhihu:  # your ZhiHu URL
     twitter:  # your twitter URL
     email:  # your email
+    # ...... # you can add more
 
 # ---------------------------------------------------------------------------------------
 # Navigation menu
@@ -87,11 +88,9 @@ social_contact: # social contact icons in the first screen, you can add more by 
 menu: #you can customize
   Home: /
   Archives: /archives
-  # Categories: /categories
-  # Tags: /tags
-  Status: https://status.evanluo.top/
-  Links: /friends
-  About: /about
+  # Status: https://status.evanluo.top/
+  # Links: /friends
+  # About: /about
   # Changelog: /changelog
   # ......
 
@@ -123,7 +122,7 @@ post:
     enable: true
     auto: false # if true, show Lv1, Lv2, Lv3... , If false, show custom label
     # label array item can be one or more
-    custom_label_list: ["The one"]
+    custom_label_list: ["lol"]
 
 # ---------------------------------------------------------------------------------------
 # Code copy
@@ -240,7 +239,7 @@ footer:
 # ---------------------------------------------------------------------------------------
 # Redefine Theme version (Please don't modify)
 # ---------------------------------------------------------------------------------------
-version: 0.2.0
+version: 0.2.1
 ```
 
 左侧目录按照顺序对应 `_config.redefine.yml` 中的选项，请一步一步来
