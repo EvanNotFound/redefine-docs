@@ -9,7 +9,7 @@
 
   ```sh
   $ cd your-hexo-site
-  $ npm install hexo-theme-redefine
+  $ npm install hexo-theme-redefine@latest
   ```
 
 - 或者使用 git 克隆
@@ -35,7 +35,7 @@ Theme Redefine 经常发布新版本，你可以通过如下命令更新 Theme R
 
   ```sh
   $ cd your-hexo-site
-  $ npm update hexo-theme-redefine
+  $ npm install hexo-theme-redefine@latest
   ```
 
 - 通过 `git` 更新到最新的 `main` 分支：

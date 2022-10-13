@@ -51,7 +51,7 @@
 ```markdown
 ---
 title: Redefine 主题使用指南
-date: 2020-04-07 21:55:14
+date: 2022-9-28 11:45:14
 tags: [Hexo]
 categories: [Hexo]
 sticky: 999
@@ -102,7 +102,7 @@ sticky: 999
    ```
 
    效果图：  
-   ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.76zdiodvgds0.png)
+   ![image](https://evan.beee.top/img/image.76zdiodvgds0.png)
 
 
 ## 友链样式
@@ -163,8 +163,6 @@ Redefine 主题对友链（links）页面进行了样式优化，你只需按如
 
 
 ## 文件比对
-以下是文件比对
-
 VS Code 自带的代码对比工具：
 ![image](https://evan.beee.top/img/image.4c2gxoox3es0.png)
 
