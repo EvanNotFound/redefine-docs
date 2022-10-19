@@ -2,17 +2,17 @@
 
 ### 已完成
 
-[x] 美化 TOC 侧边栏
+- 美化 TOC 侧边栏
 
-[x] 美化 Menu 背景
+- 美化 Menu 背景
 
-[x] 增加 Waline 评论系统
+- 增加 Waline 评论系统
 
-[x] 增加 Menu 菜单可配置背景渐变颜色
+- 增加 Menu 菜单可配置背景渐变颜色
 
 ### 未完成
 
-[ ] 美化 Footer
+- 美化 Footer
 
-[ ] ······（欢迎提 issue）
+- ······（欢迎提 issue）
 
