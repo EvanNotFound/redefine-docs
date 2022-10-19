@@ -10,237 +10,13 @@ Redefine 主题配置指南。
 
 ## 创建主题配置文件
 
-为了日后实现平滑升级，请在 Hexo 根目录中创建 `_config.redefine.yml` 并将以下代码复制进去保存，本文件会覆盖 redefine 主题默认的设置，以后要更改主题设置就在 `_config.redefine.yml` 里面更改。
+为了日后实现平滑升级，请在 **Hexo 根目录中**创建 `_config.redefine.yml` 并将**[这里的代码](https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml)**全部复制进去保存，本文件会覆盖 redefine 主题默认的设置，以后要更改主题设置就在 `_config.redefine.yml` 里面更改。
 
 :::danger
 
-主题更新后，如果 `/node_modules/hexo-theme-redefine/_config.yml` 文件出现了更改，那你必须要把更改过的项应用在 `主题配置文件 (_config.redefine.yml)` 中。VS Code 的[文件比对](/usage-tutorial/advanced.html#%E6%96%87%E4%BB%B6%E6%AF%94%E5%AF%B9) 可能对你迁移有帮助。
+主题更新后，请务必把  `/node_modules/hexo-theme-redefine/_config.yml`  和 `主题配置文件 (_config.redefine.yml)` 进行比对。如果文件出现了更改，那你必须要把更改过的项同步在 `主题配置文件 (_config.redefine.yml)` 中。VS Code 的[文件比对](/usage-tutorial/advanced.html#%E6%96%87%E4%BB%B6%E6%AF%94%E5%AF%B9) 可能对你迁移有帮助。
 
 :::
-
-```yml
-# ---------------------------------------------------------------------------------------
-#  Your basic info
-# ---------------------------------------------------------------------------------------
-base_info:
-  title: Theme Redefine # Site title
-  author: The Redefine Team # Author name
-  url: https://redefine.evanluo.top # Site url
-  # Logo image (You can use local image, image external link or don’t fill)
-  logo_img: # logo image on the left of the navigation bar
-
-# ---------------------------------------------------------------------------------------
-# Theme style settings
-# ---------------------------------------------------------------------------------------
-style:
-  # Theme primary color
-  primary_color: "#005080"
-
-  # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg # avatar of the author
-
-  # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg # favicon of the site
-
-  # Article image align position
-  article_img_align: center # value: left | center
-
-  # Left side width
-  left_side_width: 240px #sidebar width, for toc
-
-  # Content area max width
-  content_max_width: 960px #content max width, for article
-
-  # Mouse hover
-  hover:
-    shadow: true # shadow effect when the mouse hover
-    scale: false # scale effect when the mouse hover
-
-  # First screen
-  first_screen:
-    enable: true
-    background_img: /images/wallheaven-bg.webp # background image of the first screen, use relative path or external link
-    description: Theme Redefine # the title in the middle of the first screen
-
-  # Scroll style settings
-  scroll:
-    progress_bar: # reading progress bar
-      enable: true 
-    percent: # reading progress percent
-      enable: false
-
-# ---------------------------------------------------------------------------------------
-# Social contact link
-# ---------------------------------------------------------------------------------------
-social_contact: # social contact icons in the first screen, you can add more by using fontawesome icon names
-  enable: true
-  links:
-    github:  # your GitHub URL
-    instagram: # your Instagram URL
-    zhihu:  # your ZhiHu URL
-    twitter:  # your twitter URL
-    email:  # your email
-    # ...... # you can add more
-
-# ---------------------------------------------------------------------------------------
-# Navigation menu
-# ---------------------------------------------------------------------------------------
-menu: #you can customize
-  Home: /
-  Archives: /archives
-  # Status: https://status.evanluo.top/
-  # Links: /friends
-  # About: /about
-  # Changelog: /changelog
-  # ......
-
-# ---------------------------------------------------------------------------------------
-# Home page article block display settings
-# ---------------------------------------------------------------------------------------
-home_article:
-  category:
-    enable: true # show category in home page article block
-    limit: 3 # max number of categories shown in home page article block
-  tag:
-    enable: true # show tags in home page article block
-    limit: 3 # max number of tags shown in home page article block
-
-# ---------------------------------------------------------------------------------------
-# Post page Settings
-# ---------------------------------------------------------------------------------------
-post:
-  # Post word count
-  # Dependencies: hexo-wordcount (npm install hexo-wordcount)
-  # See: https://github.com/willin/hexo-wordcount
-  word_count:
-    enable: true
-    wordcount: true # word count, one article
-    min2read: true # time to read, one article
-
-  # Author label
-  author_label:
-    enable: true
-    auto: false # if true, show Lv1, Lv2, Lv3... , If false, show custom label
-    # label array item can be one or more
-    custom_label_list: ["lol"]
-
-# ---------------------------------------------------------------------------------------
-# Code copy
-# ---------------------------------------------------------------------------------------
-code_copy:
-  enable: true
-  style: mac # values: default | mac
-
-# ---------------------------------------------------------------------------------------
-# Table of Contents in the Sidebar
-# ---------------------------------------------------------------------------------------
-toc:
-  enable: true
-
-  # Automatically add list number to toc.
-  number: false
-
-  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: true
-
-  # If true, open TOC every time when you enter the article page
-  init_open: true
-
-# ---------------------------------------------------------------------------------------
-# Post copyright info
-# ---------------------------------------------------------------------------------------
-copyright_info:
-  enable: true
-
-# ---------------------------------------------------------------------------------------
-# Website count
-# ---------------------------------------------------------------------------------------
-website_count:
-  # busuanzi
-  # See: http://ibruce.info/2015/04/04/busuanzi/
-  busuanzi_count:
-    enable: true
-    site_uv: true
-    site_pv: true
-    page_pv: true
-
-# ---------------------------------------------------------------------------------------
-# Local Search
-# Dependencies: hexo-generator-searchdb
-# See: https://github.com/theme-next/hexo-generator-searchdb
-# ---------------------------------------------------------------------------------------
-local_search:
-  enable: false
-  preload: true # Preload the search data when the page loads
-
-# ---------------------------------------------------------------------------------------
-# Comment plugin
-# ---------------------------------------------------------------------------------------
-comment:
-  enable: false
-  use: waline # values: waline | gitalk | twikoo
-
-  # Waline
-  # See: https://waline.js.org/guide/get-started.html
-  waline:
-    serverUrl:  # Waline server url(vercel) example: https://example.example.com
-    lang: zh-CN # Waline language, default: zh-CN. See: https://waline.js.org/guide/client/i18n.html
-    dark: auto # Waline dark mode, default: auto. See: https://waline.js.org/reference/component.html#dark
-    requiredMeta: ['nick'] # Waline required meta, default: ['nick'], see: https://waline.js.org/reference/component.html#requiredmeta
-
-  # Gitalk
-  # See: https://github.com/gitalk/gitalk
-  gitalk:
-    github_id: # GitHub repo owner
-    repository: # Repository name to store issues
-    client_id: # GitHub Application Client ID
-    client_secret: # GitHub Application Client Secret
-
-  # Twikoo
-  # See: https://github.com/imaegoo/twikoo
-  twikoo:
-    visitor: true
-    env_id: # Vercel or Tencent Cloud Function environment ID
-    region: # environment region. If select Guangzhou, fill in "ap-guangzhou". (optional)
-
-# ---------------------------------------------------------------------------------------
-# RSS
-# Dependencies: hexo-generator-feed
-# See: https://github.com/hexojs/hexo-generator-feed
-# ---------------------------------------------------------------------------------------
-rss:
-  enable: false
-
-# ---------------------------------------------------------------------------------------
-# Lazyload image
-# ---------------------------------------------------------------------------------------
-lazyload:
-  enable: true
-
-# ---------------------------------------------------------------------------------------
-# CDN
-# ---------------------------------------------------------------------------------------
-cdn:
-  enable: false
-
-# ---------------------------------------------------------------------------------------
-# PJAX
-# ---------------------------------------------------------------------------------------
-pjax:
-  enable: true
-
-# ---------------------------------------------------------------------------------------
-# Footer settings
-# ---------------------------------------------------------------------------------------
-footer:
-  since: 2020 # the starting year of your website, Can be null
-  icp: # ICP record number of your website, Can be null
-
-# ---------------------------------------------------------------------------------------
-# Redefine Theme version (Please don't modify)
-# ---------------------------------------------------------------------------------------
-version: 0.2.1
-```
 
 左侧目录按照顺序对应 `_config.redefine.yml` 中的选项，请一步一步来
 
@@ -350,6 +126,23 @@ style:
 设置内容区域的最大宽度。一般情况下，你无需修改。如需设置，请保持单位为 `px`。
 
 ![Screen Shot 2022-10-01 at 9.55.33 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.55.33%20PM.png)
+
+### nav_color
+
+```yml
+nav_color: 
+  left: "#f78736" #left side 
+  right: "#367df7"  #right side
+  transparency: 35 #percent (10-99)
+```
+
+这是导航栏的渐变背景设置。
+
+`left` 对应左边的颜色
+
+`right` 对应右边的颜色
+
+`transparency` 是导航栏的背景透明度，请使用 `10-99` 之间的数字
 
 ### hover
 
