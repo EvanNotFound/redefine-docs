@@ -613,7 +613,6 @@ waline:
 - `serverUrl` 必填。就是你的 Vercel 域名（也可以是你绑定的自定义域名）
 - `lang` 必填。评论语言，详见[Waline 官方文档#lang](https://waline.js.org/reference/component.html#lang)
 - `dark` 必填。是否开始暗黑模式，详见[Waline 官方文档#dark](https://waline.js.org/reference/component.html#dark)
-- `requiredMeta` 必填。详见[Waline 官方文档#requiredMeta](https://waline.js.org/reference/component.html#requiredmeta)
 
 Waline 评论插件效果图。
 
@@ -644,7 +643,7 @@ Gitalk，一个基于 Github Issue 和 Preact 开发的评论插件。
 
    ```yml
    gitalk:
-     github_id: XPoet
+     github_id: EvanNotFound
      repository: hexo-site-comments
      client_id: cdfffffffffffffffffffff
      client_secret: f4b55555555555555555555555555555
@@ -703,7 +702,7 @@ exports.main = require('twikoo-func').main
 
 11. Twikoo 评论插件效果图。
 
-    ![image](https://evan.beee.top/img/image.6cstpi6jsjg0.png)
+    ![Screen Shot 2022-10-22 at 11.54.39 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-22%20at%2011.54.39%20AM.png)
 
 
 ## rss

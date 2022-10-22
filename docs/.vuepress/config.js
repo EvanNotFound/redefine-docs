@@ -1,4 +1,5 @@
 import {defaultTheme} from "vuepress"
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 export default ({
     head: [
@@ -32,6 +33,8 @@ export default ({
     theme: defaultTheme({
         locales: {
             '/': {
+                logo: '/assets/images/redefine-logo.svg',
+                repo: 'https://github.com/EvanNotFound/hexo-theme-redefine',
                 selectLanguageText: 'Languages',
                 selectLanguageName: '简体中文',
                 editLinkText: '帮助完善文档',
@@ -42,10 +45,11 @@ export default ({
                         buttonText: "刷新"
                     }
                 },
+
                 sidebar: {
                     '/': [
                         {
-                            title: '使用教程',
+                            text: '使用教程',
                             collapsable: false,
                             children: [
                                 '/usage-tutorial/quick-start',
@@ -54,7 +58,7 @@ export default ({
                             ],
                         },
                         {
-                            title: 'To-do List',
+                            text: '项目相关',
                             collapsable: false,
                             children: [
                                 '/todo/todo',
@@ -62,33 +66,27 @@ export default ({
                         },
                     ],
                 },
-                nav: [
+                
+                navbar: [
                     {
-                        text: '使用教程',
-                        items: [
-                            {
-                                text: '快速开始',
-                                link: '/usage-tutorial/quick-start',
-                            },
-                            {
-                                text: '配置指南',
-                                link: '/usage-tutorial/configuration-guide.html',
-                            },
-                            {
-                                text: '进阶设置',
-                                link: '/usage-tutorial/advanced',
-                            },
-                        ],
+                        text: '快速开始',
+                        link: '/usage-tutorial/quick-start',
                     },
                     {
-                        text: '参与贡献',
-                        link: '/contribute/contribute',
+                        text: '配置指南',
+                        link: '/usage-tutorial/configuration-guide.html',
+                    },
+                    {
+                        text: '进阶设置',
+                        link: '/usage-tutorial/advanced',
                     },
                 ],
             },
     
             '/en/': {
-                selectLanguageText: 'Languages',
+                logo: '/assets/images/redefine-logo.svg',
+                repo: 'https://github.com/EvanNotFound/hexo-theme-redefine',
+                selectLanguageText: '切换语言',
                 selectLanguageName: 'English',
                 editLinkText: 'Edit this page on GitHub',
                 lastUpdated: 'Last Updated',
@@ -98,10 +96,11 @@ export default ({
                         buttonText: "Refresh"
                     }
                 },
+
                 sidebar: {
                     '/en/': [
                         {
-                            title: 'Usage guide',
+                            text: 'Usage guide',
                             collapsable: false,
                             children: [
                                 '/en/usage-tutorial/quick-start',
@@ -110,7 +109,7 @@ export default ({
                             ],
                         },
                         {
-                            title: 'Contribution',
+                            text: 'Other things',
                             collapsable: false,
                             children: [
                                 '/en/todo/todo',
@@ -118,32 +117,31 @@ export default ({
                         },
                     ],
                 },
-                nav: [
+
+                navbar: [
                     {
-                        text: 'Usage guide',
-                        items: [
-                            {
-                                text: 'Quick start',
-                                link: '/en/usage-tutorial/quick-start',
-                            },
-                            {
-                                text: 'Configuration guide',
-                                link: '/en/usage-tutorial/configuration-guide',
-                            },
-                            {
-                                text: 'Advanced',
-                                link: '/en/usage-tutorial/advanced',
-                            },
-                        ],
+                        text: 'Quick Start',
+                        link: '/en/usage-tutorial/quick-start',
                     },
                     {
-                        text: 'To-do List',
-                        link: '/en/todo/todo',
+                        text: 'Configuration Guide',
+                        link: '/en/usage-tutorial/configuration-guide.html',
+                    },
+                    {
+                        text: 'Advanced',
+                        link: '/en/usage-tutorial/advanced',
                     },
                 ],
             },
         },
     }),
+
+/*    plugins: [
+        docsearchPlugin({
+          // 配置项
+        }),
+      ],
+*/
 })
 
 

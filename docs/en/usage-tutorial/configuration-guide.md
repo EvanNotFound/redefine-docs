@@ -617,7 +617,6 @@ waline:
 - `serverUrl` is required. It is your Vercel domain name (or a custom domain name you bind)
 - `lang` is required. Comment language, see [Waline official documentation#lang](https://waline.js.org/reference/component.html#lang)
 - `dark` is required. Whether to start dark mode, see [Waline official documentation#dark](https://waline.js.org/reference/component.html#dark)
-- `requiredMeta` is required. See [Waline official documentation#requiredMeta](https://waline.js.org/reference/component.html#requiredmeta)
 
 Waline review plugin renderings.
 
@@ -648,7 +647,7 @@ How to use in Redefine:
 
    ````yml
    gitalk:
-     github_id: XPoet
+     github_id: EvanNotFound
      repository: hexo-site-comments
      client_id: cdffffffffffffffffffffff
      client_secret: f4b5555555555555555555555555555
@@ -715,7 +714,7 @@ exports.main = require('twikoo-func').main
 
 11. Twikoo comments plugin renderings.
 
-    ![image](https://evan.beee.top/img/image.6cstpi6jsjg0.png)
+    ![Screen Shot 2022-10-22 at 11.54.39 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-22%20at%2011.54.39%20AM.png)
 
 
 ## rss
