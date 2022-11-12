@@ -5,7 +5,7 @@ For smooth upgrade in the future, please create `_config.redefine.yml` in the **
 :::caution Warning
 
 1. `_config.redefine.yml` will always override the `_config.yml` settings in the theme root
-2. After the theme is updated, be sure to compare `/node_modules/hexo-theme-redefine/_config.yml` with the `theme configuration file (_config.redefine.yml)`. If the file has changed, you must synchronize the changed items in `_config.redefine.yml`. VS Code's [file comparison](/usage-tutorial/advanced.html#%E6%96%87%E4%BB%B6%E6%AF%94%E5%AF%B9) may be helpful for your migration.
+2. After the theme is updated, be sure to compare `/node_modules/hexo-theme-redefine/_config.yml` with the `theme configuration file (_config.redefine.yml)`. If the file has changed, you must synchronize the changed items in `_config.redefine.yml`. VS Code's [file comparison](/en/docs/advanced/vs-code-compare) may be helpful for your migration.
 3. Please do not delete any items in `_config.yml`, otherwise `_config.redefine.yml` will not take effect
 
 :::
