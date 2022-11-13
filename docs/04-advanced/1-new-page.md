@@ -41,3 +41,37 @@
 
 其他页面的创建方式跟「about（关于）」页面类似，此处不再赘述。
 
+:::warning
+
+如果你创建完，发现这个页面 Front Matter 是这个格式：
+
+```markdown
+title:
+  '[object Object]': null
+date:
+  '[object Object]': null
+```
+
+那么请打开 hexo 根目录下的 `scoffalds/page.md`
+
+更改以下内容：
+
+```markdown
+---
+title: { { title } }
+date: { { date } }
+---
+```
+
+改为：
+
+```markdown
+---
+title: {{ title }}
+date: {{ date }}
+---
+```
+
+然后再删除刚刚创建的页面，重新创建
+
+:::
