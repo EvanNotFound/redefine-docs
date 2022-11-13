@@ -41,7 +41,7 @@
 
 其他页面的创建方式跟「about（关于）」页面类似，此处不再赘述。
 
-:::warning
+:::caution
 
 如果你创建完，发现这个页面 Front Matter 是这个格式：
 
@@ -72,6 +72,10 @@ date: {{ date }}
 ---
 ```
 
-然后再删除刚刚创建的页面，重新创建
+然后再删除刚刚创建的 about 页面，重新执行
+
+```bash
+$ hexo new page about
+```
 
 :::

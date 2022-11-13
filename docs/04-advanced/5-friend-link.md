@@ -52,7 +52,7 @@ Redefine 主题对友链（links）页面进行了样式优化，你只需按如
    ```
    
 
-:::warning
+:::caution
 
 如果你创建完，发现这个页面 Front Matter 是这个格式：
 
@@ -83,7 +83,11 @@ date: {{ date }}
 ---
 ```
 
-然后再删除刚刚创建的页面，重新创建
+然后再删除刚刚创建的 links 页面，重新执行
+
+```bash
+$ hexo new page links
+```
 
 :::
 
