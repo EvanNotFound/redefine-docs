@@ -25,14 +25,11 @@
 
 ## ⛰ 部分功能
 
-- [笔记模块](https://redefine-docs.evanluo.top/advanced/bi-ji-mo-kuai)
+- [笔记模块](https://redefine-docs.evanluo.top/docs/advanced/note-module)
 
-- [友链样式](https://redefine-docs.evanluo.top/advanced/you-lian-yang-shi)
-
-- [文章顶置](https://redefine-docs.evanluo.top/advanced/wen-zhang-ding-zhi)
-
-- [数学公式](https://redefine-docs.evanluo.top/advanced/shu-xue-gong-shi)
-
+- [友链样式](https://redefine-docs.evanluo.top/docs/advanced/friend-link)
+- [文章顶置](https://redefine-docs.evanluo.top/docs/advanced/sticky)
+- [数学公式](https://redefine-docs.evanluo.top/docs/advanced/mathjax)
 - 代码块语言显示
 - Light/Dark 模式切换
 - Font Awesome 6.1.0 Pro（包含 Duotone/Regular/Thin 等不同样式）
