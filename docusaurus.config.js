@@ -155,7 +155,7 @@ const config = {
         appId: '8B0V9IG8P6',
   
         //  公开 API 密钥：提交它没有危险
-        apiKey: '6d7448c5904694b9766b2be0068a424a',
+        apiKey: 'b2a1faf7fa2a59eb7889f0362829bc3b',
   
         indexName: 'hexo-theme-redefine',
   
