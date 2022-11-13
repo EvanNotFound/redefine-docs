@@ -70,6 +70,7 @@ const config = {
             label: 'Docs',
           },
           {to: 'https://www.evanluo.top/', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Changelog', position: 'left'},
           {
             href: 'https://github.com/EvanNotFound/hexo-theme-redefine',
             className: 'fa-brands fa-github fa-xl',
@@ -150,22 +151,13 @@ const config = {
         theme: require('prism-react-renderer/themes/github'),
         darkTheme: require('prism-react-renderer/themes/vsDark'),
       },
+
       algolia: {
-        // Algolia 提供的应用 ID
         appId: '8B0V9IG8P6',
-  
-        //  公开 API 密钥：提交它没有危险
         apiKey: 'b2a1faf7fa2a59eb7889f0362829bc3b',
-  
         indexName: 'hexo-theme-redefine',
-  
-        // 可选：见下文
-        contextualSearch: true,
-  
-  
-        // 可选：搜索页面的路径，默认启用（可以用 `false` 禁用）
+        contextualSearch: false,
         searchPagePath: 'search',
-  
       },
     }),
 };
