@@ -1,7 +1,5 @@
 # 安装
 
-在使用 Redefine 主题之前，请你先阅读 「 Easy Hexo 团队 」撰写的 [Hexo 教程](https://easyhexo.com/)，了解前置知识再来安装
-
 - 如果你的 Hexo 版本在 `5.0` 及以上，推荐通过 `npm` 安装
 
   ```shell

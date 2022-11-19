@@ -73,8 +73,21 @@ nav_color:
 开启后将显示在网站首页。
 
 - `enable` 是否开启首屏
-- `background_img` 首屏背景图片，可使用 **本地图片** 或 **图片外链 URL**
-- `description` 首屏描述
+
+- `background_image` 首屏背景图片，可使用 **本地图片** 或 **图片外链 URL**
+
+  （如果你的 Hexo 博客的网址位于子目录，比如 `https://example.com/blog`，请使用 **图片外链 URL**）
+
+  - `light` 为亮色模式的背景图
+  - `dark` 为暗色模式的背景图
+
+- `title_color` 首屏标题的文字颜色
+
+  - `light` 为亮色模式的文字颜色
+  - `dark` 为暗色模式的文字颜色
+
+- `description` 首屏标题
+
 - **开启**首屏的效果
   ![Screen Shot 2022-10-01 at 10.00.46 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.00.46%20PM.png)
 
