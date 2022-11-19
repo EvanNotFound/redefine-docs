@@ -73,18 +73,31 @@ Set the style when the mouse is hovering (homepage article block, TOC directory 
 
 ## first_screen
 
-After it is turned on, it will be displayed on the homepage of the website.
+Once enabled, it will be displayed on the homepage of the website.
 
-- `enable` whether to enable the first screen
-- `background_img` above-the-fold background image, you can use **local image** or **image external link URL**
-- `description` description above the fold
-- **Enable** the effect of the first screen
+- `enable` Whether to enable the first screen
+
+- `background_image` is the first screen background image, you can use **local image** or **image external link URL**
+
+   (If your Hexo blog URL is located in a subdirectory, such as `https://example.com/blog`, please use **image external link URL**)
+
+   - `light` is the background image in light mode
+   - `dark` is the background image for dark mode
+
+- `title_color` the text color of the above-the-fold title
+
+   - `light` is the text color for light mode
+   - `dark` is the text color for dark mode
+
+- `description` above the fold title
+
+- first screen enabled
   ![Screen Shot 2022-10-01 at 10.00.46 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.00.46%20PM.png)
 
-- **Do not turn on** the effect of the first screen
+- first screen disabled
   ![Screen Shot 2022-10-01 at 10.01.01 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.01.01%20PM.png)
 
-##scroll
+## scroll
 
 Set the style when the page is scrolled.
 
