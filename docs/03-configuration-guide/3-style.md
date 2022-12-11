@@ -4,12 +4,12 @@
 
 ## primary_color
 
-设置网站主题色，支持 **rgb**、**rgba**、**十六进制**等颜色格式，例如：`rgb(0, 102, 204)`、`rgba(0, 102, 204, 0.8)`、`#0066cc`。建议使用 [Web 安全色](https://www.bootcss.com/p/websafecolors/)。
+设置网站主题色，支持 **rgb**、**rgba**、**十六进制**等颜色格式，例如：`rgb(0, 102, 204)`、`rgba(0, 102, 204, 0.8)`、`#0066cc`。
 
 ## avatar
 
 设置作者头像，将显示在文章内容页，如下图。
-![Screen Shot 2022-10-01 at 9.58.59 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.58.59%20PM.png)
+![avatar](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.44.13%20PM.png)
 你可以使用**本地图片的相对路径**（即存储 `redefine/source/images/` 路径下的图片)或**图片外链 URL**。  
 
 写法参考：
@@ -26,17 +26,17 @@
 ## favicon
 
 设置网站 favicon 图标，你可以使用**本地图片的相对路径**（即存储 `redefine/source/images/` 路径下的图片)或**图片外链 URL**。 
-![Screen Shot 2022-10-01 at 9.47.54 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.47.54%20PM.png)
+![favicon](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.42.21%20PM.png)
 
-## article\_img\_align
+## article\_img_align
 
 设置文章内容页的图片排列位置，默认 `center`，可选：`left`（靠左）、`center`（居中）。
 
-## left\_side\_width
+## right_side_width
 
-设置左侧 **TOC 目录**模块的**宽度**。一般情况下，你无需修改。如需设置，请保持单位为 `px`。
+设置右侧 **TOC 目录**模块的**宽度**。一般情况下，你无需修改。如需设置，请保持单位为 `px`。
 
-![Screen Shot 2022-10-01 at 9.49.48 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.49.48%20PM.png)
+![right_side_width](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.40.48%20PM.png)
 
 ## content\_max\_width
 
@@ -61,9 +61,11 @@ nav_color:
 
 `transparency` 是导航栏的背景透明度，请使用 `10-99` 之间的数字
 
+![nav_color](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.46.35%20PM.png)
+
 ## hover
 
-设置鼠标悬浮时的样式（主页文章块、TOC 目录块、按钮等模块），可分别开启 `shadow` 和 `scale` 效果。
+设置鼠标悬浮时的样式（主页文章块、按钮等模块），可分别开启 `shadow` 和 `scale` 效果。
 
 - `shadow` 阴影效果
 - `scale` 缩放效果

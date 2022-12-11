@@ -8,61 +8,63 @@ Set website theme color, support **rgb**, **rgba**, **hexadecimal** and other co
 
 ## avatar
 
-Set the author avatar, which will be displayed on the article content page, as shown below.
-![Screen Shot 2022-10-01 at 9.58.59 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.58.59%20PM.png)
-You can use **relative path to local image** (that is, store the image under `redefine/source/images/` path) or **image external link URL**.
+Set the author's avatar, which will be displayed on the article content page, as shown in the figure below.
+![avatar](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.44.13%20PM.png)
+You can use **the relative path of the local image** (that is, the image stored in the `redefine/source/images/` path) or **the external link URL of the image**.
 
 Writing reference:
 
 - local pictures
 
-  ````yaml
-  avatar: /images/avatar.svg
-  ````
+   ```yaml
+   avatar: /images/avatar.svg
+   ```
 
 - Picture external link
 
-  ````yaml
-  avatar: https://raw.githubusercontent.com/EvanNotFound/hexo-theme-redefine/main/source/images/avatar.svg
-  ````
+   ```yaml
+   avatar: https://raw.githubusercontent.com/EvanNotFound/hexo-theme-redefine/main/source/images/avatar.svg
+   ```
 
 ## favicon
 
-To set the favicon icon of the website, you can use **relative path of local image** (that is, the image stored under `redefine/source/images/` path) or **image external link URL**.
-![Screen Shot 2022-10-01 at 9.47.54 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.47.54%20PM.png)
+To set the website favicon icon, you can use **relative path of local image** (that is, the image stored in `redefine/source/images/` path) or **image external link URL**.
+![favicon](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.42.21%20PM.png)
 
-## article\_img\_align
+## article\_img_align
 
-Set the image arrangement position of the article content page, the default is `center`, optional: `left` (left), `center` (center).
+Set the image arrangement position of the article content page, the default `center`, optional: `left` (left), `center` (centered).
 
-## left\_side\_width
+## right_side_width
 
-Sets the **width** of the left **TOC directory** module. Under normal circumstances, you do not need to modify. To set, keep the unit as `px`.
+Sets the **width** of the right **TOC** module. Normally, you don't need to modify it. If you need to set it, please keep the unit as `px`.
 
-![Screen Shot 2022-10-01 at 9.49.48 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.49.48%20PM.png)
+![right_side_width](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.40.48%20PM.png)
 
 ## content\_max\_width
 
-Sets the maximum width of the content area. Under normal circumstances, you do not need to modify. To set, keep the unit as `px`.
+Sets the maximum width of the content area. Normally, you don't need to modify it. If you need to set it, please keep the unit as `px`.
 
 ![Screen Shot 2022-10-01 at 9.55.33 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.55.33%20PM.png)
 
 ## nav_color
 
-````yml
+```yml
 nav_color:
-  left: "#f78736" #left side
-  right: "#367df7" #right side
-  Transparency: 35 #percent (10-99)
-````
+   left: "#f78736" #left side
+   right: "#367df7" #rightside
+   transparency: 35 #percent (10-99)
+```
 
-This is the gradient background setting for the navigation bar.
+This is the gradient background setting for the navbar.
 
 `left` corresponds to the color on the left
 
 `right` corresponds to the color on the right
 
-`transparency` is the background transparency of the navbar, please use a number between `10-99`
+`transparency` is the background transparency of the navigation bar, please use a number between `10-99`
+
+![nav_color](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.46.35%20PM.png)
 
 ## hover
 
