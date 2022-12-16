@@ -11,7 +11,7 @@ lazyload:
 效果图：
 ![image](https://evan.beee.top/img/image.4xw0l2pjrbo0.png)
 
-::: tip
+:::tip
 当图片过多时，开启懒加载功能，能有效提高页面加载速度！
 :::
 

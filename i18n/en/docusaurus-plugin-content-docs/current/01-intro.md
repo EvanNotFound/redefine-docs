@@ -23,15 +23,22 @@
 - [Anonymous Land](https://www.evanluo.top/)
 - [Theme Redefine Demo](https://redefine.evanluo.top/)
 
-## ⛰ Some Functions
+## ⛰️ Some functions
 
 - [Note Module](https://redefine-docs.evanluo.top/docs/advanced/note-module)
-- [Friend Links page](https://redefine-docs.evanluo.top/docs/advanced/friend-link)
-- [Article Sticky](https://redefine-docs.evanluo.top/docs/advanced/sticky)
-- [Mathjax](https://redefine-docs.evanluo.top/docs/advanced/mathjax)
+
+- [Friend Links](https://redefine-docs.evanluo.top/docs/advanced/friend-link)
+
+- [Sticky Article](https://redefine-docs.evanluo.top/docs/advanced/sticky)
+
+- [Math formula](https://redefine-docs.evanluo.top/docs/advanced/mathjax)
+
 - Code block language display
-- Light/Dark mode switch
-- Font Awesome 6.1.0 Pro (including Duotone/Regular/Thin and other different styles)
+- Light/Dark mode switching
+- Font Awesome 6.1.0 Pro (contains different styles like Duotone/Regular/Thin)
+- Dropdown menu
+- Customizable footer
+- Site runtime footer display
 
 ## ☕ Support
 

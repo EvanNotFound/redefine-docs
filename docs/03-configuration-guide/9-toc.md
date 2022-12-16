@@ -16,14 +16,14 @@ toc:
 
 该配置项用于设置文章TOC目录结构，非常实用的功能，可以快速查看文章目录结构和跳转，建议开启。
 
-![Screen Shot 2022-10-02 at 10.11.31 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2010.11.31%20AM.png)
+![Screen Shot 2022-12-16 at 4.01.50 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-16%20at%204.01.50%20PM.png)
 
 - `number` 给目录结构自动加上数字编号
   - `number: false`
-    ![Screen Shot 2022-10-02 at 10.12.54 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2010.12.54%20AM.png)
+    ![Screen Shot 2022-12-16 at 4.04.28 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-16%20at%204.04.28%20PM.png)
 
   - `number: true`
-    ![Screen Shot 2022-10-02 at 10.13.38 AM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2010.13.38%20AM.png)
+    ![Screen Shot 2022-12-16 at 4.03.49 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-16%20at%204.03.49%20PM.png)
 
 - `expand_all` 展开所有目录结构
   - `expand_all: true` 自动展开所有的目录结构

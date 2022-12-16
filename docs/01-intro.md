@@ -12,12 +12,9 @@
 
 ## 📷 屏幕截图
 
-![redefine-rendered-1](https://evan.beee.top/img/206929384-70de96a9-71ce-415b-af72-0ccebddd0d5c.png)
-
-![redefine-rendered-2](https://evan.beee.top/img/206929386-93ca5470-6fc3-4f6d-a7a1-9cb6a182b0f6.png)
-
-
-![redefine-rendered-3](https://evan.beee.top/img/206929149-f2ac77cc-c309-4d9e-a87a-bf13f4a4419c.png)
+![redefine-rendered-1](https://evan.beee.top/img/208184324-f2640ade-587a-4f46-8ad1-7b4c1b31394f.png)
+![redefine-rendered-2](https://evan.beee.top/img/208184329-a534de4b-8808-4275-b22f-b4e317aeaa3a.png)
+![redefine-rendered-3](https://evan.beee.top/img/208184337-5d0c9e28-c863-4bd6-a2ce-f8b360096a20.png)
 
 ## 🌐 在线演示站
 
@@ -34,6 +31,9 @@
 - 代码块语言显示
 - Light/Dark 模式切换
 - Font Awesome 6.1.0 Pro（包含 Duotone/Regular/Thin 等不同样式）
+- 下拉菜单
+- 可自定义页脚
+- 网站运行时间显示
 
 ## ☕ 支持
 

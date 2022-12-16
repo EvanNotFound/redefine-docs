@@ -13,7 +13,7 @@ social_contact: # social contact icons in the first screen, you can add more by 
 
 设置第三方社交链接。
 
-::: caution
+:::caution
 注意：`social_contact` 仅在首屏开启状态下才生效！
 :::
 

@@ -13,7 +13,7 @@
 2. 创建成功后，打开 Hexo 项目根目录下 `hexo/source/about/index.md` 文件，即可填写 about 页面的内容。
    支持 Markdown 和 HTML 格式。
 
-   ::: tip
+   :::tip
    `comment: true` 表示该页面开启评论功能。
    :::
 
