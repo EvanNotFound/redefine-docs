@@ -2,6 +2,8 @@
 
 **Hexo 项目初始状态下并没有 categories（分类）、tags（标签）、links（友链）、about（关于）等页面，需要自己手动创建。**
 
+## 如何创建
+
 以创建「about（关于）」页为例：
 
 1. 在 Hexo 项目根目录下使用如下命令，即可创建 `about` 页面。
@@ -79,3 +81,32 @@ $ hexo new page about
 ```
 
 :::
+
+## 标签 (tags) 页面
+
+如果你想要创建如图所示的 Tags 标签页面
+
+![Screen Shot 2022-12-23 at 12.01.50 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-23%20at%2012.01.50%20PM.png)
+
+
+
+请执行：
+
+```shell
+$ hexo new page tags
+```
+
+
+
+## 分类 (categories) 页面
+
+如果你想要创建如图所示的 Categories 分类页面
+
+![Screen Shot 2022-12-23 at 12.04.48 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-23%20at%2012.04.48%20PM.png)
+
+请执行：
+
+```shell
+$ hexo new page categories
+```
+
