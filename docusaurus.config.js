@@ -67,10 +67,10 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: '文档',
           },
-          {to: 'https://www.evanluo.top/', label: 'Blog', position: 'left'},
-          {to: '/blog', label: 'Changelog', position: 'left'},
+          {to: 'https://www.evanluo.top/', label: '博客', position: 'left'},
+          {to: '/blog', label: '版本日志', position: 'left'},
           {
             href: 'https://github.com/EvanNotFound/hexo-theme-redefine',
             className: 'fa-brands fa-github fa-xl',
@@ -156,8 +156,10 @@ const config = {
         appId: '8B0V9IG8P6',
         apiKey: 'b2a1faf7fa2a59eb7889f0362829bc3b',
         indexName: 'hexo-theme-redefine',
-        contextualSearch: false,
+        multiLanguage: true,
+        contextualSearch: true,
         searchPagePath: 'search',
+        
       },
     }),
 };

@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.Doc_sidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar Doc_sidebar"
+  },
+  "sidebar.Doc_sidebar.category.Configuration guide": {
+    "message": "Configuration guide",
+    "description": "The label for category Configuration guide in sidebar Doc_sidebar"
+  },
+  "sidebar.Doc_sidebar.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category Advanced in sidebar Doc_sidebar"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "下一个",
+    "description": "The label for version current"
+  },
+  "sidebar.Doc_sidebar.category.快速开始": {
+    "message": "快速开始",
+    "description": "The label for category 快速开始 in sidebar Doc_sidebar"
+  },
+  "sidebar.Doc_sidebar.category.配置指南": {
+    "message": "配置指南",
+    "description": "The label for category 配置指南 in sidebar Doc_sidebar"
+  },
+  "sidebar.Doc_sidebar.category.进阶使用": {
+    "message": "进阶使用",
+    "description": "The label for category 进阶使用 in sidebar Doc_sidebar"
+  }
+}
