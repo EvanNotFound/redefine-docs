@@ -14,31 +14,32 @@ home_article:
     enable: true # show tags in home page article block
     limit: 3 # max number of tags shown in home page article block
 ```
-This configuration option is used to set the display of tags and category information at the bottom of the homepage article blocks.
+该配置项用于设置首页文章块底部的**日期格式**，**标签**和**分类**信息显示。
 
-- `date_format` The **date format** for homepage articles, see below for more information.
+- `date_format` 首页文章的**日期格式**，详见下文
 
-- `category` Article categories.
-- `tag` Article tags.
-- `limit` The number of tags and categories to display.
 
-## Date Format
+- `category` 文章分类
+- `tag` 文章标签
+- `limit` 限制显示的个数
 
-Options: `auto` `relative` `YYYY-MM-DD` and more [Momentjs date formats](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/)
+## 日期格式
 
-- `auto` indicates that the date will be displayed in the `n days ago` format for articles published **within 7 days** of the current date, as shown in the following image:
+选项：`auto` `relative` `YYYY-MM-DD` 以及更多 [Momentjs 日期格式](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/)
+
+- `auto` 指当文章在发布以后**7天内**用 `n days ago` 格式来显示日期，如图
 
   ![Screen Shot 2023-01-02 at 12.39.39 PM](https://evan.beee.top/img/Screen%20Shot%202023-01-02%20at%2012.39.39%20PM.png)
 
-  **After 7 days**, the date will be displayed in the `YYYY/MM/DD` format, as shown in the following image:
+  ​	而在发布**7天后**用 `YYYY/MM/DD` 格式显示
 
   ![Screen Shot 2023-01-02 at 12.40.36 PM](https://evan.beee.top/img/Screen%20Shot%202023-01-02%20at%2012.40.36%20PM.png)
 
-- `relative` indicates that the date will be displayed in the `n days ago` format for **all articles**.
+- `relative` 指**所有文章**都用 `n days ago` 格式来显示日期
 
-- `YYYY-MM-DD` and other formats allow you to arrange the **date** and **time** in the way you prefer, see [Momentjs date formats](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/) for more options.
+- `YYYY-MM-DD` 等格式能按照你喜欢的格式排列**日期**和**时间**，更多排列方法请见：[Momentjs 日期格式](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/)
 
-  For example:
+  例如：
 
   - `DD.MM.YYYY`
 
@@ -52,4 +53,4 @@ Options: `auto` `relative` `YYYY-MM-DD` and more [Momentjs date formats](https:/
 
     ![Screen Shot 2023-01-02 at 12.48.23 PM](https://evan.beee.top/img/Screen%20Shot%202023-01-02%20at%2012.48.23%20PM.png)
 
-Feel free to explore and find the combination that works best for you.
+  欢迎自行探索自己喜欢的组合方法

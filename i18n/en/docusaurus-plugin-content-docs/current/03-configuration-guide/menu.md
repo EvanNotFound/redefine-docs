@@ -57,6 +57,21 @@ menu:
    		path: https://www.google.com/
 ```
 
+## Disabling Specific Menus
+
+To disable a specific menu, set the "path" option to "none". For example, to disable the "Archives" menu, you can configure it as follows:
+
+```yaml
+menu:
+	Archives: 
+    path: none 
+    icon: fa-regular fa-archive # can be empty
+```
+
+This will prevent the "Archives" menu from being displayed.
+
+
+
 ## Fontawesome icons
 
 Go to [Fontawesome official website](https://fontawesome.com/search), search for the icon you want, such as this `house` icon

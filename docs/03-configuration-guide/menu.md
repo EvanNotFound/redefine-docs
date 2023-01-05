@@ -56,6 +56,21 @@ menu:
   	path: https://www.google.com/
 ```
 
+## 关闭特定菜单
+
+如果你要关闭一个特定菜单
+
+比如我要关闭 `Archives` 菜单，可以设置为
+
+```yaml
+menu:
+	Archives: 
+    path: none 
+    icon: fa-regular fa-archive # can be empty
+```
+
+把 `path` 设置为 `none`，`Archives` 菜单就关闭了
+
 ## Fontawesome 图标
 
 前往 [Fontawesome 官网](https://fontawesome.com/search)，搜索你想要的图标，如这个 `house` 图标
