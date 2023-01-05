@@ -157,8 +157,11 @@ const config = {
         apiKey: 'b2a1faf7fa2a59eb7889f0362829bc3b',
         indexName: 'hexo-theme-redefine',
         multiLanguage: true,
-        contextualSearch: true,
+        contextualSearch: false,
         searchPagePath: 'search',
+        searchParameters: {
+          facetFilters: ['language:zh-Hans'],
+        },
         
       },
     }),
