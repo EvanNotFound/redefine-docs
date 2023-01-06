@@ -41,8 +41,12 @@ sidebar_position: 1
 3. 在主题配置文件 `_config.yml` 中启用 `about` 导航菜单。
    ```yaml
    menu:
-     Home: /
-     About: /about
+     Home: 
+     	path: /
+     	icon: fa-regular fa-house
+     About: 
+     	path: /about
+     	icon: fa-regular fa-user
      # ...
    ```
 
@@ -85,6 +89,12 @@ date: {{ date }}
 $ hexo new page about
 ```
 
+:::
+
+:::danger
+创建页面时自动生成的 `title` 属性不要修改！不要删除！  
+
+例如：`title: about` 不能修改！不能删除！
 :::
 
 ## 标签 (tags) 页面

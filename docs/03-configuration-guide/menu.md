@@ -34,7 +34,7 @@ menu: #you can customize, i18n files are in the theme's languages folder. fa-reg
 
 ![Screen Shot 2022-12-17 at 10.55.02 AM](https://evan.beee.top/img/Screen%20Shot%202022-12-17%20at%2010.55.02%20AM.png)
 
-Hexo 项目并没有 categories（分类）、tags（标签）、about（关于）、links（友链）等页面，需要自己手动创建。
+Hexo 项目并没有 categories（分类）、tags（标签）、about（关于）、links（友链）等页面，需要自己手动[创建](https://redefine-docs.ohevan.com/docs/advanced/new-page)。
 
 ## 写法格式
 
@@ -132,56 +132,3 @@ links: 链接
 前面的 `links` **必须是小写**，而且要对应上菜单栏上的名称。比如 `Github` 则写成 `github`
 
 后面的 `链接` 就是翻译的名字
-
-## 创建页面
-
-以创建「 about（关于）」页面为例：
-
-1. 在 Hexo 项目根目录下执行命令 `hexo new page about` ，即可在 `source` 目录下生成 about 文件夹。
-
-   ```shell
-   $ hexo new page about
-   ```
-
-2. 在 Redefine 主题配置文件 `_config.redefine.yml` 的 `menu` 配置项下添加 `About: /about`。
-
-   其中，前面的 `About` 是显示在主页的名称，后面的 `/about` 是页面路径
-
-   ```yaml
-   menu:
-     Home: /
-     Archives: /archives
-     # Categories: /categories
-     # Tags: /tags
-     # Links: /links
-     About: /about
-   ```
-
-3. 打开 Hexo 项目下 `/source/about/index.md` 文件，填写 about 页面的内容。
-   支持 Markdown 和 HTML 格式；  
-
-   参考如下：
-
-   ```markdown
-   ---
-   title: about
-   date: 2020-03-19 14:59:53
-   comment: true
-   ---
-   
-   ## About me
-   
-   I am **homo**
-   
-   1145141919810
-   ```
-
-   :::tip
-   `comment: true` 表示该页面**开启评论功能**。
-   :::
-
-   :::danger
-   创建页面时自动生成的 `title` 属性不要修改！不要删除！  
-
-   例如：`title: about` 不能修改！不能删除！
-   :::
