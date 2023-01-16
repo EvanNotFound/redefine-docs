@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 
+
 # 创建页面
 
 **Hexo 项目初始状态下并没有 categories（分类）、tags（标签）、links（友链）、about（关于）等页面，需要自己手动创建。**
