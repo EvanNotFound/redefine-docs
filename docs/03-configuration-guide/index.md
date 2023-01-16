@@ -8,3 +8,6 @@ Redefine 主题配置指南。
 
 - `站点配置文件` 均指 Hexo 根目录下的 `_config.yml`
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
