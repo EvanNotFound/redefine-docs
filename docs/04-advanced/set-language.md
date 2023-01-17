@@ -2,7 +2,7 @@
 sidebar_position: 0.5
 ---
 
-# 设置语言
+# 语言设置
 
  Redefine 主题支持三种语言，分别为 `en` `zh-CN` `zh-TW`
 

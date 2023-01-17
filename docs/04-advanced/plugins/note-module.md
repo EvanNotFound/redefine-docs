@@ -1,11 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 
 # 笔记模块
 
-Redefine 主题 `v3.0.1` 新增笔记模块
+Redefine 主题 `v0.3.1` 新增笔记模块
 
 ## 警告系列
 
