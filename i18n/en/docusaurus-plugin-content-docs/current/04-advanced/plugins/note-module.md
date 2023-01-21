@@ -1,131 +1,102 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
+
 ---
 
+# Note Module
 
-# Note module
 
-Redefine theme `v3.0.1` adds notes module
 
-## warning series
+## Large Note Block
 
-![Screen Shot 2022-10-21 at 8.13.20 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.13.20%20PM.png)
+Format: (`notel` means `note large`, easy to remember, can also be written as `note-large`)
 
-![Screen Shot 2022-10-21 at 8.02.36 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.02.36%20PM.png)
-
-How to use: Copy `html` code into your article
-
-```html
-<!---red--->
-<div class="wr">
-  <div class="t">
-    warn
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---orange--->
-<div class="wo">
-  <div class="t">
-    orange warning
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---yellow-->
-<div class="wy">
-  <div class="t">
-    Notice
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---Green--->
-<div class="wg">
-  <div class="t">
-    hint
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---blue--->
-<div class="wb">
-  <div class="t">
-    blue note
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---purple-->
-<div class="wp">
-  <div class="t">
-    purple tips
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
-
-<!---gray-->
-<div class="wgra">
-  <div class="t">
-    information
-  </div>
-  <div class="c">
-    this is the content
-  </div>
-</div>
+```markdown
+{% notel [color] [title] %}
+content
+support newline
+{% endnote %}
 ```
 
-## Notes series
+For example
 
-![Screen Shot 2022-10-21 at 8.12.58 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.12.58%20PM.png)
+```markdown
+{% notel default info %}
+newline test
+newline test
+newline test
+{% endnote %}
 
-How to use: Copy `html` code into your article
+{% notel blue hint %}
+newline test
+newline test
+newline test
+{% endnote %}
+
+{% notel red custom title %}
+newline test
+newline test
+newline test
+{% endnote %}
+```
+
+Effect:
+
+![Screenshot 2023-01-20 at 8.37.59 PM](https://evan.beee.top/img/2023/01/20/c1395f65bfa84fe07886245c92d18f49.png)
+
+
+
+## Small Note Block
+
+Format:
+
+```markdown
+{% note [style/color] [optional: custom icon] %}
+note content
+{% endnote %}
+```
+
+- `[style/color]` can be `success` `default` `primary` `info` `warning` `danger` `tip` `question` and `blue` `red` etc colors
+- `[Optional: Custom Icon]` option is optional, please fill in the second half of the icon name of [Fontawsome](https://fontawesome.com/search), such as `fa-image`
+
+Specific examples are as follows
 
 ```html
-<!---red--->
-<div class="nr">
-  red note
-</div>
+{% note %}
+default tooltip block label
+{% endnote %}
 
-<!---orange--->
-<div class="no">
-  orange note
-</div>
+{% note default %}
+default tooltip block label
+{% endnote %}
 
-<!---yellow--->
-<div class="ny">
-  yellow note
-</div>
+{% note primary %}
+primary hint block label
+{% endnote %}
 
-<!---Green--->
-<div class="ng">
-  green notes
-</div>
+{% note success %}
+success prompt block label
+{% endnote %}
 
-<!---blue--->
-<div class="nb">
-  blue note
-</div>
+{% note info %}
+info tooltip block label
+{% endnote %}
 
-<!---purple-->
-<div class="np">
-  purple note
-</div>
+{% note warning %}
+warning hint block label
+{% endnote %}
 
-<!---gray-->
-<div class="ngra">
- gray notes
-</div>
+{% note danger %}
+danger tooltip block label
+{% endnote %}
+
+{% note red fa-bolt%}
+Custom Tooltip Block Labels
+{% endnote %}
 ```
+
+Effect:
+
+
+
+![Screenshot 2023-01-20 at 7.51.43 PM](https://evan.beee.top/img/2023/01/20/d97817b2d310e0f13852afa05cc222fd.png)

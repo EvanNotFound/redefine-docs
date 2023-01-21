@@ -5,130 +5,99 @@ sidebar_position: 3
 
 # 笔记模块
 
-Redefine 主题 `v0.3.1` 新增笔记模块
 
-## 警告系列
 
-![Screen Shot 2022-10-21 at 8.13.20 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.13.20%20PM.png)
+## 大号提示块
 
-![Screen Shot 2022-10-21 at 8.02.36 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.02.36%20PM.png)
+格式：（`notel` 意思是 `note large` ，方便记，也可以写成 `note-large` ）
 
-使用方法：复制 `html` 代码到你的文章中
-
-```html
-<!---红色--->
-<div class="wr">
-  <div class="t">
-    警告
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---橙色--->
-<div class="wo">
-  <div class="t">
-    橙色警告
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---黄色-->
-<div class="wy">
-  <div class="t">
-    注意
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---绿色--->
-<div class="wg">
-  <div class="t">
-    提示
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---蓝色--->
-<div class="wb">
-  <div class="t">
-    蓝色笔记
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---紫色-->
-<div class="wp">
-  <div class="t">
-    紫色提示
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
-
-<!---灰色-->
-<div class="wgra">
-  <div class="t">
-    信息
-  </div>
-  <div class="c">
-    这是内容
-  </div>
-</div>
+```markdown
+{% notel [颜色] [标题] %}
+内容
+支持换行
+{% endnotel %}
 ```
 
-## 笔记系列
+例如
 
-![Screen Shot 2022-10-21 at 8.12.58 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-21%20at%208.12.58%20PM.png)
+```markdown
+{% notel default 信息 %}
+换行测试
+换行测试
+换行测试
+{% endnotel %}
 
-使用方法：复制 `html` 代码到你的文章中
+{% notel blue 提示 %}
+换行测试
+换行测试
+换行测试
+{% endnotel %}
 
-```html
-<!---红色--->
-<div class="nr">
-  红色笔记
-</div>
-
-<!---橙色--->
-<div class="no">
-  橙色笔记
-</div>
-
-<!---黄色--->
-<div class="ny">
-  黄色笔记
-</div>
-
-<!---绿色--->
-<div class="ng">
-  绿色笔记
-</div>
-
-<!---蓝色--->
-<div class="nb">
-  蓝色笔记
-</div>
-
-<!---紫色-->
-<div class="np">
-  紫色笔记
-</div>
-
-<!---灰色-->
-<div class="ngra">
- 灰色笔记
-</div>
+{% notel red 自定义标题 %}
+换行测试
+换行测试
+换行测试
+{% endnotel %}
 ```
 
+效果：
 
+![Screenshot 2023-01-20 at 8.37.59 PM](https://evan.beee.top/img/2023/01/20/c1395f65bfa84fe07886245c92d18f49.png)
+
+
+
+## 小号提示块
+
+格式：
+
+```markdown
+{% note [样式/颜色] [可选: 自定义图标] %}
+笔记内容
+{% endnote %}
+```
+
+- `[样式/颜色]` 可以为 `success` `default` `primary` `info` `warning` `danger` `tip` `question` 以及 `blue` `red` 等颜色
+- `[可选: 自定义图标]` 选项可选，请填写 [Fontawsome](https://fontawesome.com/search) 的图标名称后半部分，比如 `fa-image` 
+
+具体例子如下
+
+```html
+{% note  %}
+默认 提示块标签
+{% endnote %}
+
+{% note default  %}
+default 提示块标签
+{% endnote %}
+
+{% note primary  %}
+primary 提示块标签
+{% endnote %}
+
+{% note success  %}
+success 提示块标签
+{% endnote %}
+
+{% note info  %}
+info 提示块标签
+{% endnote %}
+
+{% note warning  %}
+warning 提示块标签
+{% endnote %}
+
+{% note danger  %}
+danger 提示块标签
+{% endnote %}
+
+{% note red fa-bolt%}
+自定义提示块标签
+{% endnote %}
+```
+
+效果：
+
+
+
+![Screenshot 2023-01-20 at 7.51.43 PM](https://evan.beee.top/img/2023/01/20/d97817b2d310e0f13852afa05cc222fd.png)
 
