@@ -2,7 +2,7 @@
 
 
 
-![img](https://user-images.githubusercontent.com/68590232/197350938-3d27f054-04e6-4e7a-8bce-94666b56e822.png)
+![img](https://evan.beee.top/img/2023/01/21/6a9695d3b3957a6bfc23ad167a4519b2.png)
 
 ## hexo-theme-redefine
 
@@ -12,11 +12,11 @@
 
 ## 📷 Screenshots
 
-![redefine-rendered-1](https://evan.beee.top/img/206929384-70de96a9-71ce-415b-af72-0ccebddd0d5c.png)
+![redefine-1-final](https://evan.beee.top/img/2023/01/21/5966cf4d2f2c05aecad54e233d9562ff.png)
 
-![redefine-rendered-2](https://evan.beee.top/img/206929386-93ca5470-6fc3-4f6d-a7a1-9cb6a182b0f6.png)
+![redefine-2-final](https://evan.beee.top/img/2023/01/21/6f3cad025693262f4ead2df7ac5e0883.png)
 
-![redefine-rendered-3](https://evan.beee.top/img/206929149-f2ac77cc-c309-4d9e-a87a-bf13f4a4419c.png)
+![redefine-3-final](https://evan.beee.top/img/2023/01/21/ddbb6406646f3f96acbc4764c5ac2ac1.png)
 
 ## 🌐 Online Demo
 
@@ -25,20 +25,19 @@
 
 ## ⛰️ Some functions
 
-- [Note Module](https://redefine-docs.evanluo.top/docs/advanced/note-module)
+- [Note Module](https://redefine-docs.ohevan.com/docs/advanced/plugins/note-module)
 
-- [Friend Links](https://redefine-docs.evanluo.top/docs/advanced/friend-link)
-
-- [Sticky Article](https://redefine-docs.evanluo.top/docs/advanced/sticky)
-
-- [Math formula](https://redefine-docs.evanluo.top/docs/advanced/mathjax)
-
+- [Friend Link Page](https://redefine-docs.ohevan.com/docs/advanced/friend-link)
+- [Mathjax Support](https://redefine-docs.ohevan.com/docs/advanced/plugins/mathjax)
 - Code block language display
 - Light/Dark mode switching
-- Font Awesome 6.1.0 Pro (contains different styles like Duotone/Regular/Thin)
-- Dropdown menu
-- Customizable footer
-- Site runtime footer display
+- [Font Awesome 6.1.0 Pro](https://redefine-docs.ohevan.com/docs/configuration-guide/fontawesome) (contains different styles like Duotone/Regular/Thin)
+- [Drop-down menu](https://redefine-docs.ohevan.com/docs/configuration-guide/menu)
+- [Customizable footer](https://redefine-docs.ohevan.com/docs/configuration-guide/footer)
+- [Site Uptime Display](https://redefine-docs.ohevan.com/docs/configuration-guide/footer)
+- [Article Header Image](https://redefine-docs.ohevan.com/docs/advanced/home-contents/thumbnail)
+- [Mermaid JS support](https://redefine-docs.ohevan.com/docs/advanced/plugins/mermaid)
+- SEO friendly
 
 ## ☕ Support
 

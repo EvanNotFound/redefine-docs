@@ -2,7 +2,7 @@
 
 
 
-![img](https://user-images.githubusercontent.com/68590232/197350938-3d27f054-04e6-4e7a-8bce-94666b56e822.png)
+![img](https://evan.beee.top/img/2023/01/21/6a9695d3b3957a6bfc23ad167a4519b2.png)
 
 ## hexo-theme-redefine
 
@@ -12,9 +12,16 @@
 
 ## 📷 屏幕截图
 
-![redefine-rendered-1](https://evan.beee.top/img/208184324-f2640ade-587a-4f46-8ad1-7b4c1b31394f.png)
-![redefine-rendered-2](https://evan.beee.top/img/208184329-a534de4b-8808-4275-b22f-b4e317aeaa3a.png)
-![redefine-rendered-3](https://evan.beee.top/img/208184337-5d0c9e28-c863-4bd6-a2ce-f8b360096a20.png)
+![redefine-1-final](https://evan.beee.top/img/2023/01/21/5966cf4d2f2c05aecad54e233d9562ff.png)
+
+![redefine-2-final](https://evan.beee.top/img/2023/01/21/6f3cad025693262f4ead2df7ac5e0883.png)
+
+![redefine-3-final](https://evan.beee.top/img/2023/01/21/ddbb6406646f3f96acbc4764c5ac2ac1.png)
+
+
+
+
+
 
 ## 🌐 在线演示站
 
@@ -23,17 +30,19 @@
 
 ## ⛰ 部分功能
 
-- [笔记模块](https://redefine-docs.evanluo.top/docs/advanced/note-module)
+- [笔记模块](https://redefine-docs.ohevan.com/docs/advanced/plugins/note-module)
 
-- [友链样式](https://redefine-docs.evanluo.top/docs/advanced/friend-link)
-- [文章顶置](https://redefine-docs.evanluo.top/docs/advanced/sticky)
-- [数学公式](https://redefine-docs.evanluo.top/docs/advanced/mathjax)
+- [友链样式](https://redefine-docs.ohevan.com/docs/advanced/friend-link)
+- [数学公式](https://redefine-docs.ohevan.com/docs/advanced/plugins/mathjax)
 - 代码块语言显示
 - Light/Dark 模式切换
-- Font Awesome 6.1.0 Pro（包含 Duotone/Regular/Thin 等不同样式）
-- 下拉菜单
-- 可自定义页脚
-- 网站运行时间显示
+- [Font Awesome 6.1.0 Pro](https://redefine-docs.ohevan.com/docs/configuration-guide/fontawesome)（包含 Duotone/Regular/Thin 等不同样式）
+- [下拉菜单](https://redefine-docs.ohevan.com/docs/configuration-guide/menu)
+- [可自定义页脚](https://redefine-docs.ohevan.com/docs/configuration-guide/footer)
+- [网站运行时间显示](https://redefine-docs.ohevan.com/docs/configuration-guide/footer)
+- [文章头图](https://redefine-docs.ohevan.com/docs/advanced/home-contents/thumbnail)
+- [Mermaid JS 支持](https://redefine-docs.ohevan.com/docs/advanced/plugins/mermaid)
+- SEO 友好
 
 ## ☕ 支持
 

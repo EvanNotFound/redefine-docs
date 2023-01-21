@@ -22,7 +22,7 @@ Note: `social_contact` only works when first screen is enabled
 
 :::
 
-![Screen Shot 2022-10-01 at 10.09.39 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.09.39%20PM.png)
+![Screenshot 2023-01-21 at 10.10.40 AM](https://evan.beee.top/img/2023/01/21/7376eef66aedb073b81dd40d5095e599.png)
 
 If you want to **change the icon** or **add another 3rd party link**, eg: add Instagram
 
@@ -37,5 +37,4 @@ enable: true
 links:
   instagram: https://www.instagram.com/xxxxxxxx
 ````
-
 

@@ -23,7 +23,7 @@ social_contact: # social contact icons in the first screen, you can add more by 
 注意：`social_contact` 仅在首屏开启状态下才生效！
 :::
 
-![Screen Shot 2022-10-01 at 10.09.39 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.09.39%20PM.png)
+![Screenshot 2023-01-21 at 10.10.40 AM](https://evan.beee.top/img/2023/01/21/7376eef66aedb073b81dd40d5095e599.png)
 
 如果要**更改图标**或**添加其他第三方链接**，例如：添加 Instagram
 
