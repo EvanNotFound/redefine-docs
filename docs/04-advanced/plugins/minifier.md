@@ -19,6 +19,8 @@ Redefine 主题的源码中，HTML、CSS、JavaScript、图片等资源文件是
    all_minifier: true
    ```
    如果你使用插件时遇到了问题或者想进行更详细的设置，请查看插件的[文档](https://github.com/chenzhutian/hexo-all-minifier/blob/master/README.md)。
+   
+   
 
 
 

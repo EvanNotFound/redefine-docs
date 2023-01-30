@@ -2,7 +2,6 @@
 sidebar_position: 3
 ---
 
-
 # 笔记模块
 
 
@@ -101,3 +100,6 @@ danger 提示块标签
 
 ![Screenshot 2023-01-20 at 7.51.43 PM](https://evan.beee.top/img/2023/01/20/d97817b2d310e0f13852afa05cc222fd.png)
 
+## 更多
+
+实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2022/10/02/theme-demo/)

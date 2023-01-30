@@ -48,3 +48,6 @@ sidebar_position: 1
    效果图：  
    ![image](https://evan.beee.top/img/image.76zdiodvgds0.png)
 
+## 更多
+
+实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2022/10/02/theme-demo/)

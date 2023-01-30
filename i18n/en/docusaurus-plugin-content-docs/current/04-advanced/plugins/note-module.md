@@ -100,3 +100,7 @@ Effect:
 
 
 ![Screenshot 2023-01-20 at 7.51.43 PM](https://evan.beee.top/img/2023/01/20/d97817b2d310e0f13852afa05cc222fd.png)
+
+## More
+
+For real site experience, please visit: [Redefine Demo](https://redefine.ohevan.com/2022/10/02/theme-demo/)

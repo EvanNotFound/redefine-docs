@@ -49,3 +49,7 @@ mermaid:
 其中，graph 类型可以是 `graph`、`digraph`、`flowchart`、`gantt`、`sequenceDiagram`、`classDiagram` 和 `stateDiagram`。
 
 更多语法可以参考 Mermaid JS 官网：https://mermaid.js.org/ 。
+
+## 更多
+
+实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2022/10/02/theme-demo/)

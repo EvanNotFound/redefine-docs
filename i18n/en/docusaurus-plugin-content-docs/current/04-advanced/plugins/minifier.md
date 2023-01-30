@@ -24,4 +24,3 @@ Here you can use the [hexo-all-minifier](https://github.com/chenzhutian/hexo-all
     If you encounter problems when using the plugin or want to make more detailed settings, please check the [documentation](https://github.com/chenzhutian/hexo-all-minifier/blob/master/README.md) of the plugin.
 
 
-

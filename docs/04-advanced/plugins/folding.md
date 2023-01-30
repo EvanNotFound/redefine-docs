@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # 折叠模块
@@ -46,3 +46,6 @@ tip 提示块标签
 yellow, blue, green, red, orange, pink, cyan, white, black, gray
 ```
 
+## 更多
+
+实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2022/10/02/theme-demo/)

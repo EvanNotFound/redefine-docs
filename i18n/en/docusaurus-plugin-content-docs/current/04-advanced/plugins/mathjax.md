@@ -47,3 +47,7 @@ Configuration process:
 
    Renderings:
    ![image](https://evan.beee.top/img/image.76zdiodvgds0.png)
+
+## More
+
+For real site experience, please visit: [Redefine Demo](https://redefine.ohevan.com/2022/10/02/theme-demo/)

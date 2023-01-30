@@ -46,3 +46,7 @@ tip Tip block label
 ```markdown
 yellow, blue, green, red, orange, pink, cyan, white, black, gray
 ```
+
+## More
+
+For real site experience, please visit: [Redefine Demo](https://redefine.ohevan.com/2022/10/02/theme-demo/)
