@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 
-# 数学公式
+# Mathjax 数学公式
 
 如果要在文章中显示数学公式，可以使用插件 **[hexo-filter-mathjax](https://github.com/next-theme/hexo-filter-mathjax/ )**。  
 

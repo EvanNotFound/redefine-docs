@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 笔记模块
+# Notes 笔记模块
 
 
 

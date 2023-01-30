@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-## 按钮模块
+# Buttons 按钮模块
 
 本模块可以添加按钮
 

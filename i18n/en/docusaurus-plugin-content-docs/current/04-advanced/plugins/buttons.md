@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-## Button Module
+# Button Module
 
 This module allows you to add buttons.
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Mermaid JS
+# Mermaid JS 模块
 
 为了在 Hexo 中使用 Mermaid JS 画图，你需要安装 `hexo-filter-mermaid-diagrams` npm 模块。你可以在 Hexo 根目录下运行以下命令来安装：
 
