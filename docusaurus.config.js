@@ -39,10 +39,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-
+          editUrl: 'https://github.com/EvanNotFound/redefine-docs/tree/main',
         },
         blog: {
           showReadingTime: true,
+          editUrl: 'https://github.com/EvanNotFound/redefine-docs/tree/main',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
