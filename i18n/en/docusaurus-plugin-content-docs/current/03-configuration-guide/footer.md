@@ -27,3 +27,8 @@ This configuration item is used to set the information display at the bottom of 
 
 - `icp` website record number, you can leave it blank
 
+:::caution
+
+Please do not remove the theme credit line in the footer as it is a way of acknowledging and showing gratitude to the creator of the them. Thanks!
+
+:::
