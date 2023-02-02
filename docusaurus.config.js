@@ -71,7 +71,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: 'https://www.evanluo.top/', label: '博客', position: 'left'},
+          {to: 'https://ohevan.com/', label: '博客', position: 'left'},
           {to: '/blog', label: '版本日志', position: 'left'},
           {
             href: 'https://github.com/EvanNotFound/hexo-theme-redefine',
@@ -88,8 +88,8 @@ const config = {
         style: 'dark',
         logo: {
           alt: 'Anonymous Land Logo',
-          src: 'img/AnonymousLand_neon.svg',
-          href: 'https://www.evanluo.top/',
+          src: 'img/evan-logo-neon.svg',
+          href: 'https://ohevan.com/',
           height: 51,
         },
         links: [
@@ -128,7 +128,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: 'https://www.evanluo.top/',
+                to: 'https://ohevan.com/',
               },
               {
                 label: 'GitHub',
