@@ -27,7 +27,7 @@ A regular button is suitable for being independent of paragraphs:
 
 large button is more emphasized, it is recommended to use it with center:
 
-{% btn center large::start using::https://redefine-docs.ohevan.com.::fa-solid fa-download %}
+{% btn center large::start using::https://redefine-docs.ohevan.com::fa-solid fa-download %}
 ```
 
 
