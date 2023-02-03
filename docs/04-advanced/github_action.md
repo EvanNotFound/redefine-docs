@@ -40,7 +40,7 @@ jobs:
       - name: 安装 Node
         uses: actions/setup-node@v1
         with:
-          node-version: "16.x"
+          node-version: "19.x"
 
       - name: 安装 Hexo
         run: |
