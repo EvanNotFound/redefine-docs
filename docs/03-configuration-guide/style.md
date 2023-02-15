@@ -46,7 +46,7 @@ sidebar_position: 3
 
 设置内容区域的最大宽度。一般情况下，你无需修改。如需设置，请保持单位为 `px`。
 
-![Screen Shot 2022-10-01 at 9.55.33 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%209.55.33%20PM.png)
+![Screenshot 2023-02-15 at 5.12.34 PM](https://evan.beee.top/img/2023/02/15/6c413b2018e73ae6824fda700c9403fd.png)
 
 ## nav_color
 
@@ -94,19 +94,24 @@ nav_color:
 
 - `description` 首屏标题
 
-- **开启**首屏的效果
-  ![Screen Shot 2022-10-01 at 10.00.46 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.00.46%20PM.png)
+- `custom_font` 自定义字体
 
-- **不开启**首屏的效果  
-  ![Screen Shot 2022-10-01 at 10.01.01 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.01.01%20PM.png)
+  - `enable` 是否启用自定义字体
+  - `font_family` 字体名称
+  - `font_url` 字体链接
+
+**开启**首屏的效果
+![Screenshot 2023-02-15 at 5.14.34 PM](https://evan.beee.top/img/2023/02/15/0a6540297f8c1fcc67f8d5559a579698.png)
+
+- **不开启**首屏的效果
+  ![Screenshot 2023-02-15 at 5.14.54 PM](https://evan.beee.top/img/2023/02/15/c3a200bf8b2518bad6ffddc5eb6f57ac.png)
 
 ## scroll
 
 设置页面滚动时的样式。
 
 - `progress_bar` 页面滚动时在网站**顶部**显示滚动**进度条**
-  ![Screen Shot 2022-10-01 at 10.04.07 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.04.07%20PM.png)
+  ![Screenshot 2023-02-15 at 5.16.11 PM](https://evan.beee.top/img/2023/02/15/d21fd5bc321b6e37001c26f9e4a04ebc.png)
 
-- `percent` 页面滚动时在网站**右下角**显示滚动**百分比**
-  ![Screen Shot 2022-10-01 at 10.07.31 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.07.31%20PM.png)
+- `percent` 页面滚动时在网站**右下角**显示滚动**百分比**![Screenshot 2023-02-15 at 5.18.10 PM](https://evan.beee.top/img/2023/02/15/85d1182cfc0e255bf2aa7eecc788a76c.png)
 
