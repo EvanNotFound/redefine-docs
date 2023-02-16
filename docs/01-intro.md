@@ -2,7 +2,7 @@
 
 
 
-![img](https://evan.beee.top/img/2023/01/21/6a9695d3b3957a6bfc23ad167a4519b2.png)
+![Slogan](https://evan.beee.top/img/2023/02/15/cbf84586c2efcdcde78f646b8b3a5505.png)
 
 ## hexo-theme-redefine
 
