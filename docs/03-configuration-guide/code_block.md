@@ -27,3 +27,8 @@ code_block:
   - `mac` 样式
 
     ![Screen Shot 2022-12-23 at 6.57.28 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-23%20at%206.57.28%20PM.png)
+
+- `custom_font` 自定义字体
+  - `enable` 是否启用自定义字体
+  - `font_family` 字体名称
+  - `font_url` 字体链接

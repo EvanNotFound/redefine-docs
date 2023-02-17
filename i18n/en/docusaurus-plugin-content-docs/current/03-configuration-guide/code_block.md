@@ -26,3 +26,8 @@ code_block:
   - `mac` style
 
     ![Screen Shot 2022-12-23 at 6.57.28 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-23%20at%206.57.28%20PM.png)
+
+- `custom_font` custom font
+  - `enable` Whether to enable custom fonts
+  - `font_family` font name
+  - `font_url` font URL

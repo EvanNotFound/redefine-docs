@@ -97,6 +97,12 @@ Once enabled, it will be displayed on the homepage of the website.
 
 - `description` above the fold title
 
+- `custom_font` custom font
+
+   - `enable` Whether to enable custom fonts
+   - `font_family` font name
+   - `font_url` font URL
+
 - first screen enabled
   ![Screen Shot 2022-10-01 at 10.00.46 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.00.46%20PM.png)
 
