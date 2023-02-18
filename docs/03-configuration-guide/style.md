@@ -29,7 +29,7 @@ sidebar_position: 3
 
 ## favicon
 
-设置网站 favicon 图标，你可以使用**本地图片的相对路径**（即存储 `redefine/source/images/` 路径下的图片)或**图片外链 URL**。 
+设置网站 favicon 图标，你可以使用**本地图片的相对路径**（即存储在站点根目录 `source/images/` 路径下的图片)或**图片外链 URL**。 
 ![favicon](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.42.21%20PM.png)
 
 ## article\_img_align
