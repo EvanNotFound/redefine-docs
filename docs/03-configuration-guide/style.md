@@ -14,7 +14,7 @@ sidebar_position: 3
 
 设置作者头像，将显示在文章内容页，如下图。
 ![avatar](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.44.13%20PM.png)
-你可以使用**本地图片的相对路径**（即存储 `redefine/source/images/` 路径下的图片)或**图片外链 URL**。  
+你可以使用**本地图片的相对路径**（即存储在站点根目录 `source/images/` 路径下的图片)或**图片外链 URL**。  
 
 写法参考：
 
