@@ -17,15 +17,20 @@ This configuration item is used to set the information display at the bottom of 
 
 - `runtime` Whether to display the website running time. Options: `true` / `false`
 
-   ![Screen Shot 2022-12-16 at 4.13.00 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-16%20at%204.13.00%20PM.png)
+   ![Screenshot 2023-02-26 at 12.01.46 PM](https://evan.beee.top/img/2023/02/26/2827f5e66c9ce98f8b422b918604135a.png)
 
 - `start_time` website start time. Used to calculate website uptime and copyright dates
 
-   ![Screen Shot 2022-12-16 at 4.14.47 PM](https://evan.beee.top/img/Screen%20Shot%202022-12-16%20at%204.14.47%20PM.png)
+   ![Screenshot 2023-02-26 at 12.02.25 PM](https://evan.beee.top/img/2023/02/26/06543a6baa6763e795ea2779c23c79d0.png)
 
 - `customize` footer custom content. Support `html` code
 
-- `icp` website record number, you can leave it blank
+- `icp` website record number
+
+   - Whether `enable` is enabled
+   - `number` record number
+   - `url` is optional, fill in the URL you want the record number to go to
+
 
 :::caution
 
