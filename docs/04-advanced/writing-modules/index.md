@@ -4,7 +4,7 @@ sidebar_position: 1.5
 
 
 
-# 主题插件
+# 写作模块
 
 import DocCardList from '@theme/DocCardList';
 

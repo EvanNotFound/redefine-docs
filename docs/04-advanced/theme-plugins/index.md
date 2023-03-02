@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1.5
+sidebar_position: 1.56
 ---
 
 
 
-# Theme Plugins
+# 主题插件
 
 import DocCardList from '@theme/DocCardList';
 
