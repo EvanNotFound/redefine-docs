@@ -6,18 +6,22 @@ sidebar_position: 18
 # fontawesome
 
 ```yaml
-fontawesome: # select fontawesome versions you want to use
+fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
   thin: false # use fontawesome thin version or not
   light: false # use fontawesome light version or not
   duotone: false # use fontawesome duotone version or not
+  sharp_solid: false # use fontawesome sharp-solid version or not
 ```
 
-Redefine 主题内置 `Fontawesome 6.1.0 Pro` 版本
+Redefine 主题内置 `Fontawesome Pro v6.2.1` 版本
 
 是否启用：
 
-- `fa-thin`
-- `fa-light`
-- `fa-duotone`
+- `fa-thin` [Thin 系列图标](https://fontawesome.com/search?o=r&f=thin)
+- `fa-light` [Light 系列图标](https://fontawesome.com/search?o=r&f=light)
+- `fa-duotone` [Duotone 系列图标](https://fontawesome.com/search?o=r&f=duotone)
+- `fa-sharp fa-solid` [Sharp Solid 系列图标](https://fontawesome.com/search?o=r&f=sharp)
 
-三种图标，为了加快访问速度，不需要的图标组不建议开启
+四种图标，为了加快访问速度，不需要的图标组不建议开启
+
+`solid`, `regular`, `brands` 三种图标组，为了保证图标的完整性，默认开启

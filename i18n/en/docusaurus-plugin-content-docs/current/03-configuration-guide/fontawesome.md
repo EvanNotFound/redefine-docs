@@ -6,18 +6,18 @@ sidebar_position: 17
 # fontawesome
 
 ```yaml
-fontawesome. # Select the version of fontawesome you want to use
-  thin: false # Use the fontawesome thin version or not
-  light: false # Use the fontawesome light version or not
-  duotone: false # Use the fontawesome duotone version or not.
+fontawesome: # select fontawesome versions you want to use, in order to reduce the loading time, select as few as possible
+   thin: false # use fontawesome thin version or not
+   light: false # use fontawesome light version or not
+   duotone: false # use fontawesome duotone version or not
+   sharp_solid: false # use fontawesome sharp-solid version or not
 ```
 
-Redefine theme built-in `Fontawesome 6.1.0 Pro` version
+The `Fontawesome Pro v6.2.1` version is included in Redefine theme, you can enable the following icon series:
 
-Whether to enable
+- `fa-thin` [Thin icon series](https://fontawesome.com/search?o=r&f=thin)
+- `fa-light` [Light icon series](https://fontawesome.com/search?o=r&f=light)
+- `fa-duotone` [Duotone icon series](https://fontawesome.com/search?o=r&f=duotone)
+- `fa-sharp fa-solid` [Sharp Solid icon series](https://fontawesome.com/search?o=r&f=sharp)
 
-- fontawesome 6.1.0 Pro
-- `Fa-light` (lightweight)
-- `Fa-duotone
-
-Three kinds of icons, in order to speed up access, it is not recommended to enable the icon set that is not needed
+However, it's recommended to only enable necessary icon groups from these series to improve the access speed. On the other hand, the `solid`, `regular`, and `brands` icon groups are enabled by default to ensure that all icons are available.
