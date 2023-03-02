@@ -9,5 +9,5 @@ plugins:
 	#theme plugins
 ```
 
-关于详细的 plugins 配置，请见 [主题插件配置]()
+关于详细的 plugins 配置，请见 [主题插件配置](https://redefine-docs.ohevan.com/docs/advanced/theme-plugins)
 

@@ -9,5 +9,5 @@ plugins:
 	#theme plugins
 ```
 
-For configuration, please refer to [Theme Plugin Config]()
+For configuration, please refer to [Theme Plugin Config](https://redefine-docs.ohevan.com/docs/advanced/theme-plugins)
 
