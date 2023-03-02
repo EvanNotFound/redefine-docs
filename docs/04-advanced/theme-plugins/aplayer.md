@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # APlayer 音乐播放器
 
+一个 HTML 音乐播放器，可以实现博客全站音乐播放，具体效果见下
+
 ```yaml
 plugins:
   aplayer: # APlayer (fixed version)
