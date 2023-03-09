@@ -4,6 +4,14 @@ Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-red
 
 在这里对所有为 [Redefine 主题](https://github.com/EvanNotFound/hexo-theme-redefine) 作出贡献的人说声感谢，开源社区因你而精彩
 
+<a href="https://github.com/EvanNotFound/hexo-theme-redefine/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EvanNotFound/hexo-theme-redefine" />
+</a>
+
+
+
+## 参考项目
+
 本主题使用/引用/参考了以下项目中的内容：
 
 - [hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep)
