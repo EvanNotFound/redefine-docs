@@ -17,6 +17,7 @@ Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-red
 - [hexo-theme-keep](https://github.com/XPoet/hexo-theme-keep)
 - [hexo-theme-volantis](https://github.com/volantis-x/hexo-theme-volantis)
 - [hexo-theme-next](https://github.com/theme-next/hexo-theme-next)
+- [hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 - [Google Material Design System 3](https://m3.material.io/)
 - [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
 - [Microsoft Fluent Design System](https://www.microsoft.com/design/fluent/#/)
@@ -30,3 +31,4 @@ Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-red
 - [nodejieba](https://github.com/yanyiwu/nodejieba)
 - [aplayer](https://aplayer.js.org/)
 - [Font Awesome](https://fontawesome.com/)
+- [即刻短文](https://blog.zhheo.com/p/557c9e72.html)
