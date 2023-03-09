@@ -73,6 +73,7 @@ const config = {
           },
           {to: 'https://ohevan.com/', label: '博客', position: 'left'},
           {to: '/blog', label: '版本日志', position: 'left'},
+          {to: 'https://redefine.ohevan.com/', label: '演示站点', position: 'left'},
           {
             href: 'https://github.com/EvanNotFound/hexo-theme-redefine',
             className: 'fa-brands fa-github fa-xl',

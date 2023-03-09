@@ -11,6 +11,10 @@
     "message": "Changelog",
     "description": "Navbar item with label 版本日志"
   },
+  "item.label.演示站点": {
+    "message": "Demo",
+    "description": "Navbar item with label 演示站点"
+  },
   "title": {
     "message": "hexo-theme-redefine",
     "description": "The title in the navbar"
