@@ -7,7 +7,7 @@ sidebar_position: 6
 
 Redefine 主题对友链（links）页面进行了样式优化，你只需按如下教程，便可得到漂亮的友链列表，如下图。
 
-![Screen Shot 2022-10-02 at 12.32.44 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-02%20at%2012.32.44%20PM.png)
+![Screenshot 2023-03-09 at 3.44.26 PM](https://evan.beee.top/img/2023/03/09/f22e2be3c15df9ad5a88dc2e285f49c0.png)
 
 1. 创建友链（links）页面，在你的 Hexo 项目根目录下使用如下命令即可自动创建。
    ```shell
