@@ -35,6 +35,17 @@ Writing reference:
 To set the website favicon icon, you can use **relative path of local image** (that is, the image stored in `redefine/source/images/` path) or **image external link URL**.
 ![favicon](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.42.21%20PM.png)
 
+## og_image
+
+[Open Graph Image](https://ogp.me/)
+
+This option means that when sharing links on social platforms, since most people’s blogs have not been backed up, the icon will not be displayed, and the look and feel is very bad
+
+It is better to turn off `og_image` display directly.
+
+-  `enable` decides whether to enable it or not
+- `image_url` is the link to the image
+
 ## article\_img_align
 
 Set the image arrangement position of the article content page, the default `center`, optional: `left` (left), `center` (centered).

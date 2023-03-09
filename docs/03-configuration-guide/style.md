@@ -32,6 +32,17 @@ sidebar_position: 3
 设置网站 favicon 图标，你可以使用**本地图片的相对路径**（即存储在站点根目录 `source/images/` 路径下的图片)或**图片外链 URL**。 
 ![favicon](https://evan.beee.top/img/Screen%20Shot%202022-12-11%20at%205.42.21%20PM.png)
 
+## og_image
+
+[Open Graph 图片](https://ogp.me/)
+
+本选项是指在社交平台分享链接时，由于大部分人博客没备份，就会显示不出图标，观感很差
+
+不如直接关闭 `og_image` 显示。
+
+- `enable` 是否启用 `false | true`
+- `image_url` 是指图片的链接
+
 ## article\_img_align
 
 设置文章内容页的图片排列位置，默认 `center`，可选：`left`（靠左）、`center`（居中）。
