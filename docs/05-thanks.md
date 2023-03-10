@@ -2,6 +2,8 @@
 
 Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/LICENSE) 协议开源，请遵守此协议进行二次开发等。
 
+## 贡献
+
 在这里对所有为 [Redefine 主题](https://github.com/EvanNotFound/hexo-theme-redefine) 作出贡献的人说声感谢，开源社区因你而精彩
 
 <a href="https://github.com/EvanNotFound/hexo-theme-redefine/graphs/contributors">
@@ -10,7 +12,13 @@ Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-red
 
 
 
-## 参考项目
+## 赞助
+
+感谢所有赞助者，这里是 [赞助列表](https://github.com/EvanNotFound/hexo-theme-redefine/blob/dev/DONATION.md)
+
+有你们的支持，Redefine 主题才能走的更远，CDN 也得以延续。
+
+## 开源相关
 
 本主题使用/引用/参考了以下项目中的内容：
 
