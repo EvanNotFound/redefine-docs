@@ -54,10 +54,10 @@ hexo new page shuoshuo
 
    ```markdown
    <!-- 引用 artitalk -->
-   <script type="text/javascript" src="https://photo-1314795557.cos.ap-beijing.myqcloud.com/artitalk.js"></script>
+   <script async data-pjax type="text/javascript" src="https://photo-1314795557.cos.ap-beijing.myqcloud.com/artitalk.js"></script>
    <!-- 存放说说的容器 -->
    <div id="artitalk_main"></div>
-   <script data-pjax>
+   <script async data-pjax>
    new Artitalk({
        appId: '', // Your LeanCloud appId
        appKey: '', // Your LeanCloud appKey
