@@ -12,6 +12,8 @@ sidebar_position: 1
 
 ![Screenshot 2023-03-09 at 3.20.35 PM](https://evan.beee.top/img/2023/03/09/75b146ba614c9cbc81c1ecf1b7e19ef3.png)
 
+Demo 链接：https://redefine.ohevan.com/essays
+
 ## 配置
 
 ### 创建说说页面
