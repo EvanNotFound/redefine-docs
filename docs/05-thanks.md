@@ -40,3 +40,4 @@ Redefine 主题使用 [AGPL V3.0](https://github.com/EvanNotFound/hexo-theme-red
 - [aplayer](https://aplayer.js.org/)
 - [Font Awesome](https://fontawesome.com/)
 - [即刻短文](https://blog.zhheo.com/p/557c9e72.html)
+- [Typed.js](https://github.com/mattboldt/typed.js/)
