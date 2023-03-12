@@ -87,45 +87,45 @@ nav_color:
 
 ## first_screen
 
-Once enabled, it will be displayed on the homepage of the website.
+开启后将显示在网站首页。
 
-- `enable` Whether to enable the first screen
+- `enable` 是否开启首屏
 
-- `background_image` is the first screen background image, you can use **local image** or **image external link URL**
+- `background_image` 首屏背景图片，可使用 **本地图片** 或 **图片外链 URL**
 
-   (If your Hexo blog URL is located in a subdirectory, such as `https://example.com/blog`, please use **image external link URL**)
+  （如果你的 Hexo 博客的网址位于子目录，比如 `https://example.com/blog`，请使用 **图片外链 URL**）
 
-   - `light` is the background image in light mode
-   - `dark` is the background image for dark mode
+  - `light` 为亮色模式的背景图
+  - `dark` 为暗色模式的背景图
 
-- `title_color` the text color of the above-the-fold title
+- `title_color` 首屏标题的文字颜色
 
-   - `light` is the text color for light mode
-   - `dark` is the text color for dark mode
+  - `light` 为亮色模式的文字颜色
+  - `dark` 为暗色模式的文字颜色
 
-- `font_sizes` set the font size above the fold
+- `font_sizes` 设定首屏的字体大小
 
-   - `title` main title font size
-   - `subtitle` subtitle font size
+  - `title` 主标题字体大小
+  - `subtitle` 副标题字体大小
 
-- `title` above the fold title
+- `title` 首屏标题
 
-- `subtitle` subtitle (with typing effect)
+- `subtitle` 副标题（有打字效果）
 
-   - Whether `enable` is enabled
-   - `list` is the sentence content of the subtitle, you can fill in multiple sentences, such as `['This is the first sentence', 'This is the second one']`
+  - `enable` 是否启用
+  - `list` 副标题的句子内容，可以填写多个句子，比如 `['This is the first sentence', 'This is the second one']`
 
-- `custom_font` custom font
+- `custom_font` 自定义字体
 
-   - `enable` Whether to enable custom fonts
-   - `font_family` font name
-   - `font_url` font URL
+  - `enable` 是否启用自定义字体
+  - `font_family` 字体名称
+  - `font_url` 字体链接
 
-**Enable** the effect of the first screen
+**开启**首屏的效果
 ![Screenshot 2023-03-12 at 12.15.50 PM](https://evan.beee.top/img/2023/03/12/fdf9529fd47b0670b91985e20249ea8f.png)
 
-- **Do not open** the effect of the first screen
-   ![Screenshot 2023-03-12 at 12.16.37 PM](https://evan.beee.top/img/2023/03/12/f2001c16f3a8edeecb8fa92210a2d914.png)
+- **不开启**首屏的效果
+  ![Screenshot 2023-03-12 at 12.16.37 PM](https://evan.beee.top/img/2023/03/12/f2001c16f3a8edeecb8fa92210a2d914.png)
 
 ## scroll
 

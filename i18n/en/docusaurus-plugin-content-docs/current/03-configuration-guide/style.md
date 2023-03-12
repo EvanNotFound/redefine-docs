@@ -96,29 +96,39 @@ Once enabled, it will be displayed on the homepage of the website.
 
 - `background_image` is the first screen background image, you can use **local image** or **image external link URL**
 
-   (If your Hexo blog URL is located in a subdirectory, such as `https://example.com/blog`, please use **image external link URL**)
+  (If your Hexo blog URL is located in a subdirectory, such as `https://example.com/blog`, please use **image external link URL**)
 
-   - `light` is the background image in light mode
-   - `dark` is the background image for dark mode
+  - `light` is the background image in light mode
+  - `dark` is the background image for dark mode
 
 - `title_color` the text color of the above-the-fold title
 
-   - `light` is the text color for light mode
-   - `dark` is the text color for dark mode
+  - `light` is the text color for light mode
+  - `dark` is the text color for dark mode
 
-- `description` above the fold title
+- `font_sizes` set the font size above the fold
+
+  - `title` main title font size
+  - `subtitle` subtitle font size
+
+- `title` above the fold title
+
+- `subtitle` subtitle (with typing effect)
+
+  - Whether `enable` is enabled
+  - `list` is the sentence content of the subtitle, you can fill in multiple sentences, such as `['This is the first sentence', 'This is the second one']`
 
 - `custom_font` custom font
 
-   - `enable` Whether to enable custom fonts
-   - `font_family` font name
-   - `font_url` font URL
+  - `enable` Whether to enable custom fonts
+  - `font_family` font name
+  - `font_url` font URL
 
-- first screen enabled
-  ![Screen Shot 2022-10-01 at 10.00.46 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.00.46%20PM.png)
+**Enable** the effect of the first screen
+![Screenshot 2023-03-12 at 12.15.50 PM](https://evan.beee.top/img/2023/03/12/fdf9529fd47b0670b91985e20249ea8f.png)
 
-- first screen disabled
-  ![Screen Shot 2022-10-01 at 10.01.01 PM](https://evan.beee.top/img/Screen%20Shot%202022-10-01%20at%2010.01.01%20PM.png)
+- **Do not open** the effect of the first screen
+  ![Screenshot 2023-03-12 at 12.16.37 PM](https://evan.beee.top/img/2023/03/12/f2001c16f3a8edeecb8fa92210a2d914.png)
 
 ## scroll
 
