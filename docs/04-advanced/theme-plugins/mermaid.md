@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Mermaid JS 模块
+# Mermaid JS 流程图
 
 ```yaml
 plugins:

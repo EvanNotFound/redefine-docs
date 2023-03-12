@@ -3,7 +3,7 @@ sidebar_position: 5
 
 ---
 
-# Mermaid JS module
+# Mermaid JS Chart
 
 ```yaml
 plugins:
