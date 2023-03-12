@@ -8,6 +8,7 @@ sidebar_position: 19
 ```yaml
 footer:
   runtime: true # show website running time or not
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>' # footer icon, write fontawesome html code here
   start_time: 2022/8/17 11:45:14 # the starting time of your website, format: yyyy/mm/dd hh:mm:ss
   customize:  # customize footer message, can be html code
   icp: # ICP record number of your website, Can be null
@@ -21,6 +22,8 @@ footer:
 - `runtime` 是否显示网站运行时间。选项：`true` / `false`
 
   ![Screenshot 2023-02-26 at 12.01.46 PM](https://evan.beee.top/img/2023/02/26/2827f5e66c9ce98f8b422b918604135a.png)
+
+- `icon` 页脚图标，请前往 [FontAwesome](https://fontawesome.com/search) 找到你要的图标，然后复制html代码粘贴在这里，请用 `''` 单引号括起来。支持 [Fontawesome 动画样式](https://fontawesome.com/docs/web/style/animate)。
 
 - `start_time` 网站起始时间。用于计算网站运行时间和版权日期
 
