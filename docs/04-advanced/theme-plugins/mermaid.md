@@ -4,33 +4,26 @@ sidebar_position: 5
 
 # Mermaid JS 模块
 
+```yaml
+plugins:
+	...
+  mermaid: # Mermaid JS
+    enable: false # enable mermaid or not
+    version: "9.3.0" # default v9.3.0
+```
+
+
+
 为了在 Hexo 中使用 Mermaid JS 画图，你需要安装 `hexo-filter-mermaid-diagrams` npm 模块。你可以在 Hexo 根目录下运行以下命令来安装：
 
 ```bash
 npm install hexo-filter-mermaid-diagrams
 ```
 
-安装完成后，在主题的 `_config.redefine.yml` 中最底部添加以下配置：
-
-```yaml
-# ---------------------------------------------------------------------------------------
-# Mermaid JS diagram 
-# ---------------------------------------------------------------------------------------
-mermaid: 
-  enable: true  # default true 
-  version: "9.3.0" # default v9.3.0
-  style: # for more themes, see https://mermaid.js.org/config/theming.html
-    light: default  # default default
-    dark: dark  # default dark 
-  options:  
-```
-
-其中，
+安装好以后
 
 - `enable` 字段用于控制 Mermaid JS 是否启用。
 - `version` 字段用于控制 Mermaid JS 的版本。
-- `style` 字段用于控制 Mermaid JS 的主题。详见：[Mermaid JS 官方文档](https://mermaid.js.org/config/theming.html)
-- `options` 字段用于控制 Mermaid JS 的其他配置。
 
  例如，在文章中使用 Mermaid JS 画图，只需要在文章中使用以下 Markdown 语法即可： 
 
@@ -52,4 +45,4 @@ mermaid:
 
 ## 更多
 
-实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2022/10/02/theme-demo/)
+实际体验欢迎前往 [Redefine 演示站点](https://redefine.ohevan.com/2023/01/16/mermaidjs-demo/)
