@@ -4,7 +4,7 @@ sidebar_position: 3.5
 
 
 
-# Custom
+# custom
 
 本部分是指对站点自定义的配置
 
