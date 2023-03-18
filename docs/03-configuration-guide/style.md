@@ -119,7 +119,7 @@ nav_color:
 
   - `enable` 是否启用自定义字体
   - `font_family` 字体名称
-  - `font_url` 字体链接
+  - `font_url` 到字体 css 样式表的链接，比如 Google Fonts 的 `https://fonts.googleapis.com/css2?family=Roboto&display=swap`
 
 **开启**首屏的效果
 ![Screenshot 2023-03-12 at 12.15.50 PM](https://evan.beee.top/img/2023/03/12/fdf9529fd47b0670b91985e20249ea8f.png)
