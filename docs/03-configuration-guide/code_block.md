@@ -30,5 +30,11 @@ code_block:
 
 - `custom_font` 自定义字体
   - `enable` 是否启用自定义字体
+  
   - `font_family` 字体名称
-  - `font_url` 字体链接
+  
+  - `font_url` 字体样式文件地址（CSS），比如 Google Font 中
+  
+    ![Screenshot 2023-03-18 at 11.26.37 AM](https://evan.beee.top/img/2023/03/18/6d56c014870576b266ea46c4f13e3ab9.png)
+  
+    这个就是 CSS样式文件地址
