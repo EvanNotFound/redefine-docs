@@ -38,3 +38,8 @@ custom: # custom font for the whole site
     这个就是 CSS样式文件地址
 
 - `english` 是指英文字体，配置同上
+
+## formats
+
+- `font_size` 是指文章字体大小。建议保持默认 `16px`，但是如果自定义字体比较小的话，可以稍微改大一点
+- `line_height` 是指行距，默认 `1.5`。如无特别需要不建议更改。
