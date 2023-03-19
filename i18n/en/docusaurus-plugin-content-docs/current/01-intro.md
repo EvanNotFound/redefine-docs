@@ -1,6 +1,6 @@
 # Project Intro
 
-![Slogan](https://evan.beee.top/img/2023/02/15/cbf84586c2efcdcde78f646b8b3a5505.png)
+![Slogan](https://evan.beee.top/img/2023/03/18/610599507c8078e7279966455688c66c.webp)
 
 
 
