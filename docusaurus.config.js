@@ -167,6 +167,14 @@ const config = {
         },
         
       },
+      announcementBar: {
+        id: 'migrate_to_v2',
+        content:
+          '🎉 <b>hexo-theme-redefine v2</b> 已发布，<a target="_blank" href="https://redefine-docs.ohevan.com">前往新文档</a>，请尽快升级！',
+        backgroundColor: '#C9C8C7',
+        textColor: '#000000',
+        isCloseable: false,
+      },
     }),
 };
 

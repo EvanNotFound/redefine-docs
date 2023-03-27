@@ -46,7 +46,7 @@ sidebar_position: 6
    ```
 
    效果图：  
-   ![image](https://evan.beee.top/img/image.76zdiodvgds0.png)
+   ![image](https://evan.beee.top/img/2023/03/25/2c9d1ae06a8b34a145f0e3a745322412.png)
 
 ## 更多
 
